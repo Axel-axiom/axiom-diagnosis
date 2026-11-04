@@ -1,71 +1,92 @@
-# AXIOM 诊断台 1.1
+# AXIOM 诊断台
 
-需要 Node.js 22 或更高版本。诊断面板用 React 编写，构建产物 `public/app.js` 已提交，运行时无需 npm install。双击 HTML 不会启动诊断服务。
+面向高中化学“物质结构与性质”的 AI Web 应用。学生输入问题或答案，系统判断可能的错因，给出对应知识和讲解，并打开相关的三维模型。
 
-在本目录打开 PowerShell（资源管理器地址栏输入 powershell）：
+知识以知识库为准，AI 只负责在检索候选中选择并写一段讲解。
+
+## 快速运行（约 5 分钟）
+
+需要 Node.js 22 或更高版本。构建产物已提交，运行不需要 `npm install`。
 
 ```powershell
-# 可选；不配置时仍可使用知识库检索
+# 可选：配置后使用 AI 诊断；不配置时使用知识库检索
 $env:DEEPSEEK_API_KEY = '你的密钥'
-# 可选，默认 deepseek-flash
-$env:DEEPSEEK_MODEL = 'deepseek-flash'
 node server.mjs
 ```
 
-浏览器访问 http://localhost:8787 ，结束时按 Ctrl+C。端口冲突可先设置 `$env:PORT = '8788'`。
-CMD 用户可用 `set DEEPSEEK_API_KEY=你的密钥`，然后运行 `node server.mjs`。
-密钥只设置在当前终端环境，不要写入任何项目文件、截图或报告。
+浏览器打开 <http://localhost:8787>，用完在终端按 `Ctrl+C`。
 
-修改前端（源码在 `src/`）后重新构建：
+macOS 或 Linux 使用 `export DEEPSEEK_API_KEY=你的密钥`。密钥只放在当前终端环境，不要写入项目文件。
+
+## 环境变量
+
+| 变量 | 默认值 | 说明 |
+|---|---|---|
+| `DEEPSEEK_API_KEY` | 无 | DeepSeek 密钥。未配置时自动使用知识库检索 |
+| `DEEPSEEK_MODEL` | `deepseek-flash` | 模型名称 |
+| `DEEPSEEK_THINKING` | `enabled` | 思考模式，`enabled` 或 `disabled` |
+| `DEEPSEEK_MAX_TOKENS` | `4000` | 输出上限 |
+| `PORT` | `8787` | 服务端口 |
+
+`.env.example` 只是变量名模板，应用不会自动读取 `.env`。
+
+## 目录结构
+
+| 路径 | 内容 |
+|---|---|
+| `server.mjs` | HTTP 服务、诊断接口和降级决策 |
+| `retrieve.mjs`、`aliases.mjs` | 化学文本分词、别名和 TF-IDF 检索 |
+| `deepseek.mjs` | 提示词、模型调用和结果校验 |
+| `view.mjs` | 按问题中的物质确定实际打开的模型 |
+| `src/` | React 诊断面板源码 |
+| `public/app.js` | 前端构建产物 |
+| `public/axiom/AXIOM_Lab.html` | 离线单文件三维模块（AXIOM Lab 0.13.3） |
+| `data/kb.json` | 只读知识库：249 张卡片、241 条错因、748 条问法 |
+| `tests/` | 接口、替换、检索、浏览器联动和真实模型测试 |
+| `docs/开发记录/` | 开发过程中的修订记录，其中的数字和哈希属于当时的版本 |
+
+## 修改前端
 
 ```powershell
 npm install
 npm run build
 ```
 
-运行自动测试（先停止已有服务，以免 8787 冲突）：
+## 测试
 
 ```powershell
-node --test tests/api.test.mjs tests/v11.test.mjs
-node tests/quality.mjs
+# 接口与替换（不联网）
+npm test
+
+# 检索质量。独立集第 1 名 27/35 低于开发目标 28/35，脚本按设计返回非零退出码
+npm run quality
+
+# 浏览器联动（需要本机 Chrome、Edge，先停止占用 8787 的服务）
 node tests/browser.mjs
-# 仅有 Key 且允许真实联网时手动运行
+
+# 真实模型（需要密钥）
 node tests/smoke.mjs
+node tests/eval-ai.mjs
 ```
 
-浏览器测试使用本机 Chrome、Edge 和浏览器原生 CDP，无第三方依赖。路径在测试脚本开头，可按实际安装位置修改。报告写入相邻的「报告」目录。应用代码采用 Node 22 支持的内置接口；浏览器测试脚本使用内置 WebSocket，需要 Node 22.4+。本次实测环境 Node 24.21.0。
+检索质量和浏览器测试的结果写入项目旁边的“报告”文件夹。
 
-`data/kb.json` 是知识库文件，应用只读。检索归一化只作用于内存索引。`public/axiom/AXIOM_Lab.html` 是附件原样副本；未来替换模型仅需替换该文件。
+## 诊断模式
 
-检索使用汉字二元组、字母数字词元、TF-IDF 余弦相似度。未收录词元计入查询向量长度，以减少无关查询分数虚高；进阶卡得分乘 0.85。正式无匹配阈值 0.12，错因匹配阈值独立为 0.12。详见交付报告。
+| 情况 | 模式 | 页面 |
+|---|---|---|
+| AI 返回合法选择 | `ai` | 显示错因、AI 讲解和知识，打开模型 |
+| 检索分数达标，AI 不可用 | `local` | 提示 AI 暂不可用，显示知识库检索结果 |
+| 检索分数达标，AI 返回无匹配 | `local` | 提示 AI 未找到确切匹配，显示知识库检索结果 |
+| 检索分数低于 0.12，AI 不可用或返回无匹配 | `none` | 提示知识库中没有找到对应内容 |
 
-低分且 AI 不可用或选 none：无匹配。高分且 AI 选 none：local 并显示「AI 未找到确切匹配，以下为知识库检索结果」。高分且 AI 不可用：local。AI 有效选择：ai。每次模型请求超时 15 秒；返回校验失败最多重试一次。
+## 已知限制
 
-「换一个」仅切换知识卡片并重新打开模型，清除原错因和原 AI 讲解，避免把先前诊断套用到另一张卡片。
+- 校验只能保证结果结构合法，不能证明 AI 讲解的化学内容一定正确，页面因此标注“AI 生成，供参考”。
+- 阈值拦截不能识别所有范围外问题，20 条测试中有 1 条未被拦截。
+- 105 张知识卡片没有三维调用。
+- 没有学生试用数据，不能评价学习效果。
 
-1.1 使用 aliases.mjs 做最长别名匹配和复合词屏蔽，view.mjs 负责保守物种替换，trace 显示实际诊断过程。索引/查询均保留化学式和希腊字母；检索混合整体文本与单条问法得分。
+## AI 工具使用
 
-`npm test` 只执行接口与替换测试；`npm run quality` 单独执行检索验收。本次独立集 Top-1 为 27/35，低于 28/35，因此质量脚本和 npm run quality **按设计返回非零退出码**；其余四项检索指标达标，不能据此称为全部验收通过。详见相邻报告。
-
-真实模型验证由负责人手动执行 `node tests/smoke.mjs` 或 `node tests/eval-ai.mjs`，会调用真实 DeepSeek，并启动本机 Chrome 无头窗口确认模型回执；按脚本位置定位输出目录、自动建目录、每条落盘。可从任意当前目录使用脚本绝对路径运行。smoke 包含原 10 条问题和新增苯问题。记录实际模型回执、耗时、confidence、卡片和错因原文。没有 Key 时立即退出，不伪造结果。
-
-`.env.example` 仅作变量名模板；应用不会自动加载 .env，请在终端设置环境变量。交付包含本地 .git。
-
-本次四项修订：单元素符号、键写法、V 形不参与物种计数，未知多原子式仍阻止替换；检索权重未调整。Git 统一文本换行，附件以二进制方式保留原字节。
-
-自定义真实AI验收集：`node tests/eval-ai.mjs "C:\路径\自定义验收集.json"`；也支持相对当前终端目录的路径。不传路径时仍使用脚本所在项目的 `data/acceptance.json`。真实调用仍需配置 Key。
-
-当前知识库为用户提供的 K05-12 氢键结论更新版，附件原样保存；保留此前的大写 Πₘⁿ 记号。本次唯一内容变化为 K05-12 conclusion 开头新增「氢键不属于化学键。」。
-
-- kb SHA-256：596B3C470CA29450ABAE730980219EDC29E0D4DB50B071908700C7A0B41B07F7
-- AXIOM SHA-256：BA71899D8434DA7E7086AAB424CC44BAC328F8D2D841180CE806F30E4C07F8AB
-
-接口测试会检查上述两个附件哈希。系统提示词补充“大π键记号写大写 Π，下标为原子数，上标为电子数。”；检索权重和阈值未调整。
-
-当前默认配置：DEEPSEEK_THINKING=enabled、DEEPSEEK_MAX_TOKENS=4000；上一轮 A/B 数据为历史对照，本次按用户要求将默认切换为 B。thinking 直接放在 HTTP 请求体顶层。环境变量仅接受 enabled/disabled 与正整数；非法配置返回明确原因，不发请求。调用超时保持每次15秒，最多两次。
-
-真实测试报告用 DEEPSEEK_REPORT_GROUP=A 或 B 分别写入相邻报告/A 或报告/B，不互相覆盖。每条保存各次finish_reason、usage.total_tokens及usage.completion_tokens_details.reasoning_tokens；未返回时记录null，不推算思考token，不记录reasoning_content或模型原始content。累计用量覆盖重试，带已报告次数，缺失不能当零。每条latency_ms从诊断开始至浏览器模型回执结束，model_trace.latency_ms单独记录模型调用耗时。
-
-本地错因只在问题唯一物种与错因明确提到的物种一致、或错因没有明确物种时保留；卡片照常显示。检索排序及阈值不改。
-
-卡片 axiom 为 null 时，若问题明确包含唯一已识别且有模型的物种，调用放在 view.axiom，原 card 与 axiom 不变。大π键问题请求 delocalized，由 AXIOM.catalog() 过滤后仅保留支持图层；card-only 调用仍不替换，未识别物种仍显示暂无模型。
+开发中使用了 ChatGPT／Codex 和 Claude 辅助编写代码、整理资料和复核。当前 Git 提交由 Codex 和 Claude 完成。
