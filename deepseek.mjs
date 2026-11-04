@@ -10,8 +10,9 @@ export async function choose(query,candidates,kb,{key=process.env.DEEPSEEK_API_K
  for(let attempt=0;attempt<2;attempt++)try{
  trace.attempts=attempt+1;const r=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(timeout),headers:{'Content-Type':'application/json',Authorization:`Bearer ${key}`},body:JSON.stringify({model,response_format:{type:'json_object'},max_tokens:800,messages:[{role:'system',content:SYSTEM},{role:'user',content:JSON.stringify({query,candidates:cards})}]})});
  if(!r.ok)return done(null);const data=await r.json(),v=JSON.parse(data.choices?.[0]?.message?.content);
- if(!v||!['high','medium','low'].includes(v.confidence)||typeof v.explanation!=='string'||(v.card_id!=='none'&&!v.explanation.trim())||[...v.explanation].length>150)throw Error('invalid');
+ validation.length_ok=!!v&&typeof v.explanation==='string'&&[...v.explanation].length<=150&&(v.card_id==='none'||!!v.explanation.trim());if(!v||!['high','medium','low'].includes(v.confidence)||typeof v.explanation!=='string'||(v.card_id!=='none'&&!v.explanation.trim())||[...v.explanation].length>150)throw Error('invalid');
  validation.length_ok=typeof v.explanation==='string'&&[...v.explanation].length<=150;if(v.card_id==='none'){if(v.error_id!=='none')throw Error('invalid');Object.assign(validation,{card_in_candidates:true,error_on_card:true,passed:true});trace.status='none';trace.confidence=v.confidence;return done(v);}
  const card=cards.find(c=>c.id===v.card_id);validation.card_in_candidates=!!card;validation.error_on_card=!!card&&(v.error_id==='none'||card.errors.some(e=>e.id===v.error_id));if(!card||(v.error_id!=='none'&&!card.errors.some(e=>e.id===v.error_id)))throw Error('invalid');validation.passed=true;trace.status='ok';trace.confidence=v.confidence;return done(v);
  }catch(e){trace.status=e.name==='TimeoutError'||e.name==='TypeError'?'unavailable':'invalid';validation.passed=false;}return done(null);
 }
+

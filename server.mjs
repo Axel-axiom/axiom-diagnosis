@@ -9,7 +9,7 @@ export const root=fileURLToPath(new URL('.',import.meta.url));
 export const kb=JSON.parse(await readFile(path.join(root,'data/kb.json'),'utf8'));
 const retrieve=createRetriever(kb);
 export async function diagnose(query,options={}){
- const candidates=retrieve.search(query), top=candidates[0],low=top.score<.14;
+ const candidates=retrieve.search(query), top=candidates[0],low=top.score<.12;
  const choice=await choose(query,candidates,kb,options),ai=choice.value;const trace={retrieval:{top:candidates.map(x=>({id:x.card.id,point:x.card.point,score:x.score,tier:x.card.tier}))},model:choice.trace,validation:choice.validation,view:{from:'card',species:''}};
  const matched=ai&&ai.card_id!=='none';
  if(!matched&&low)return {trace,view:null,mode:'none',card:null,error:null,explanation:null,alternatives:[],axiom:null,message:'知识库中没有找到对应内容'};
@@ -29,3 +29,4 @@ export function createServer(options={}){return http.createServer(async(req,res)
  }catch{send(404,{message:'请求失败'});}
  });}
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))createServer().listen(Number(process.env.PORT||8787),'127.0.0.1',()=>console.log('AXIOM 诊断台：http://localhost:'+ (process.env.PORT||8787)));
+
