@@ -1,10 +1,8 @@
 {
- "version": "2026-11-03 审定版",
- "source": "队友整合知识卡片定稿（13 个 docx；AXIOM_K07 即 K07A 已弃用，以 K07_队员 为准）。全部错因经负责人 审定。",
+ "version": "2026-11-04",
  "cards": [
   {
    "id": "H01-01",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "02 电子效应：局部键极性怎样影响更远位置",
@@ -25,13 +23,10 @@
      "delocalized"
     ]
    },
-   "ref": "H01 P4",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P4"
   },
   {
    "id": "H01-02",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "02 电子效应：局部键极性怎样影响更远位置",
@@ -47,13 +42,10 @@
     "比较酸性时只看有无Cl够吗？"
    ],
    "axiom": null,
-   "ref": "H01 P5",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P5"
   },
   {
    "id": "H01-03",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "02 电子效应：局部键极性怎样影响更远位置",
@@ -69,13 +61,10 @@
     "是不是只要写sp²就说明孤电子对参与共轭？"
    ],
    "axiom": null,
-   "ref": "H01 P6",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P6"
   },
   {
    "id": "H01-04",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "02 电子效应：局部键极性怎样影响更远位置",
@@ -91,13 +80,10 @@
     "不同电子通道的作用方向会相反吗？"
    ],
    "axiom": null,
-   "ref": "H01 P8",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P8"
   },
   {
    "id": "H01-05",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "02 电子效应：局部键极性怎样影响更远位置",
@@ -113,13 +99,10 @@
     "怎样判断电荷被分散后是否稳定？"
    ],
    "axiom": null,
-   "ref": "H01 P9",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P9"
   },
   {
    "id": "H01-06",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "02 电子效应：局部键极性怎样影响更远位置",
@@ -135,13 +118,10 @@
     "诱导作用和离域稳定该怎么分别说明？"
    ],
    "axiom": null,
-   "ref": "H01 P10",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P10"
   },
   {
    "id": "H01-07",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "03 复杂配位：规则不变，只把连接关系拆开",
@@ -159,13 +139,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "H01 P12",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P12"
   },
   {
    "id": "H01-08",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "03 复杂配位：规则不变，只把连接关系拆开",
@@ -181,13 +158,10 @@
     "三本账应该先算哪一本？"
    ],
    "axiom": null,
-   "ref": "H01 P13",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P13"
   },
   {
    "id": "H01-09",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "03 复杂配位：规则不变，只把连接关系拆开",
@@ -203,13 +177,10 @@
     "题目没画连接端能自己确定吗？"
    ],
    "axiom": null,
-   "ref": "H01 P15",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P15"
   },
   {
    "id": "H01-10",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "03 复杂配位：规则不变，只把连接关系拆开",
@@ -225,13 +196,10 @@
     "配位数为4就一定能判断顺反式吗？"
    ],
    "axiom": null,
-   "ref": "H01 P16",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P16"
   },
   {
    "id": "H01-11",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "04 陌生水解：供受模型只解释符合条件的反应入口",
@@ -247,13 +215,10 @@
     "只看“都水解”能确定反应入口吗？"
    ],
    "axiom": null,
-   "ref": "H01 P18",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P18"
   },
   {
    "id": "H01-12",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "04 陌生水解：供受模型只解释符合条件的反应入口",
@@ -269,13 +234,10 @@
     "题干没给后续步骤，答案该停在哪里？"
    ],
    "axiom": null,
-   "ref": "H01 P21",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P21"
   },
   {
    "id": "H01-13",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "03 复杂配位：规则不变，只把连接关系拆开",
@@ -291,13 +253,10 @@
     "算M¹配位数时要把M²的键也数进去吗？"
    ],
    "axiom": null,
-   "ref": "H01 P14",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P14"
   },
   {
    "id": "H01-14",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "03 复杂配位：规则不变，只把连接关系拆开",
@@ -313,13 +272,10 @@
     "方括号里外分别起什么作用？"
    ],
    "axiom": null,
-   "ref": "H01 P17",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P17"
   },
   {
    "id": "H01-15",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "04 陌生水解：供受模型只解释符合条件的反应入口",
@@ -335,13 +291,10 @@
     "为什么不能把每个氯化物都画成同一条水解箭头？"
    ],
    "axiom": null,
-   "ref": "H01 P19",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P19"
   },
   {
    "id": "H01-16",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H01",
    "section": "04 陌生水解：供受模型只解释符合条件的反应入口",
@@ -357,13 +310,10 @@
     "总反应式和逐步机理为什么不能混为一谈？"
    ],
    "axiom": null,
-   "ref": "H01 P20",
-   "status": "AI 已核",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx"
+   "ref": "H01 P20"
   },
   {
    "id": "H02-01",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "02 分数坐标与周期边界：先把位置说清",
@@ -379,13 +329,10 @@
     "为什么读点P前必须先找原点和坐标轴？"
    ],
    "axiom": null,
-   "ref": "H02 P3",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P3"
   },
   {
    "id": "H02-02",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "02 分数坐标与周期边界：先把位置说清",
@@ -401,13 +348,10 @@
     "在棱上的点都叫棱心吗？"
    ],
    "axiom": null,
-   "ref": "H02 P6",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P6"
   },
   {
    "id": "H02-03",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "02 分数坐标与周期边界：先把位置说清",
@@ -423,13 +367,10 @@
     "周期平移和投影重合是一回事吗？"
    ],
    "axiom": null,
-   "ref": "H02 P7",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P7"
   },
   {
    "id": "H02-04",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "02 分数坐标与周期边界：先把位置说清",
@@ -445,13 +386,10 @@
     "只知道投影位置够不够判断局部环境？"
    ],
    "axiom": null,
-   "ref": "H02 P8",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P8"
   },
   {
    "id": "H02-05",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "02 分数坐标与周期边界：先把位置说清",
@@ -467,13 +405,10 @@
     "不同原点的两套坐标可以直接比较吗？"
    ],
    "axiom": null,
-   "ref": "H02 P9",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P9"
   },
   {
    "id": "H02-06",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "03 坐标距离与最近周期像",
@@ -489,13 +424,10 @@
     "底面有120°时还用正交公式吗？"
    ],
    "axiom": null,
-   "ref": "H02 P10",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P10"
   },
   {
    "id": "H02-07",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "03 坐标距离与最近周期像",
@@ -511,13 +443,10 @@
     "最短距离很小就说明两个粒子成键吗？"
    ],
    "axiom": null,
-   "ref": "H02 P11",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P11"
   },
   {
    "id": "H02-08",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "04 投影：保留平面位置，主动舍去一个方向",
@@ -533,13 +462,10 @@
     "只说“俯视”不说方向能直接画吗？"
    ],
    "axiom": null,
-   "ref": "H02 P12",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P12"
   },
   {
    "id": "H02-09",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "04 投影：保留平面位置，主动舍去一个方向",
@@ -555,13 +481,10 @@
     "两个视图给出的坐标冲突时先检查什么？"
    ],
    "axiom": null,
-   "ref": "H02 P14",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P14"
   },
   {
    "id": "H02-10",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "04 投影：保留平面位置，主动舍去一个方向",
@@ -582,13 +505,10 @@
      "projection_z"
     ]
    },
-   "ref": "H02 P16",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P16"
   },
   {
    "id": "H02-11",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "05 截面：寻找结构与指定平面的交集",
@@ -604,13 +524,10 @@
     "球心在平面外但球被切到，怎么区分？"
    ],
    "axiom": null,
-   "ref": "H02 P17",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P17"
   },
   {
    "id": "H02-12",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "05 截面：寻找结构与指定平面的交集",
@@ -626,13 +543,10 @@
     "斜截面边界为什么要先找棱交点？"
    ],
    "axiom": null,
-   "ref": "H02 P18",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P18"
   },
   {
    "id": "H02-13",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "06 陌生复杂图：拆层、选工具、做可验证结论",
@@ -648,13 +562,10 @@
     "什么时候该用坐标，什么时候该用截面？"
    ],
    "axiom": null,
-   "ref": "H02 P21",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P21"
   },
   {
    "id": "H02-14",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "04 投影：保留平面位置，主动舍去一个方向",
@@ -670,13 +581,10 @@
     "只看圆点位置可以求最近邻吗？"
    ],
    "axiom": null,
-   "ref": "H02 P14",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P14"
   },
   {
    "id": "H02-15",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "06 陌生复杂图：拆层、选工具、做可验证结论",
@@ -692,13 +600,10 @@
     "分块看完怎样核对原晶胞组成？"
    ],
    "axiom": null,
-   "ref": "H02 P20",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P20"
   },
   {
    "id": "H02-16",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H02",
    "section": "04 投影：保留平面位置，主动舍去一个方向",
@@ -714,13 +619,10 @@
     "如何利用不同视图补回丢掉的坐标？"
    ],
    "axiom": null,
-   "ref": "H02 P15",
-   "status": "AI 已核",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx"
+   "ref": "H02 P15"
   },
   {
    "id": "H03-01",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "02 空位、替位与间隙：先说清哪里发生了什么",
@@ -736,13 +638,10 @@
     "周期边界画法会不会造成假空位？"
    ],
    "axiom": null,
-   "ref": "H03 P3",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P3"
   },
   {
    "id": "H03-02",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "02 空位、替位与间隙：先说清哪里发生了什么",
@@ -758,13 +657,10 @@
     "怎样从粒子所在的位置判断缺陷类型？"
    ],
    "axiom": null,
-   "ref": "H03 P4",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P4"
   },
   {
    "id": "H03-03",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "02 空位、替位与间隙：先说清哪里发生了什么",
@@ -780,13 +676,10 @@
     "边界缺陷位置还需要均摊吗？"
    ],
    "axiom": null,
-   "ref": "H03 P7",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P7"
   },
   {
    "id": "H03-04",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "03 电荷补偿与平均价态：组成变化后闭合电荷",
@@ -802,13 +695,10 @@
     "整体带电时方程右边还是0吗？"
    ],
    "axiom": null,
-   "ref": "H03 P8",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P8"
   },
   {
    "id": "H03-05",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "03 电荷补偿与平均价态：组成变化后闭合电荷",
@@ -824,13 +714,10 @@
     "题目没指定补偿机制能给唯一答案吗？"
    ],
    "axiom": null,
-   "ref": "H03 P9",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P9"
   },
   {
    "id": "H03-06",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "03 电荷补偿与平均价态：组成变化后闭合电荷",
@@ -846,13 +733,10 @@
     "仅有M³⁺和M⁴⁺时怎样算两种数量？"
    ],
    "axiom": null,
-   "ref": "H03 P10",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P10"
   },
   {
    "id": "H03-07",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "03 电荷补偿与平均价态：组成变化后闭合电荷",
@@ -868,13 +752,10 @@
     "求出负的Fe²⁺数量说明什么？"
    ],
    "axiom": null,
-   "ref": "H03 P11",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P11"
   },
   {
    "id": "H03-08",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "04 掺杂、占位率与非整比组成",
@@ -891,13 +772,10 @@
     "掺杂之后需要先算什么电荷差？"
    ],
    "axiom": null,
-   "ref": "H03 P12",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P12"
   },
   {
    "id": "H03-09",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "04 掺杂、占位率与非整比组成",
@@ -913,13 +791,10 @@
     "共享系数和占位率究竟各乘几次？"
    ],
    "axiom": null,
-   "ref": "H03 P13",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P13"
   },
   {
    "id": "H03-10",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "04 掺杂、占位率与非整比组成",
@@ -935,13 +810,10 @@
     "占位率改变就能断言晶胞体积改变吗？"
    ],
    "axiom": null,
-   "ref": "H03 P15",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P15"
   },
   {
    "id": "H03-11",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "05 从缺陷到材料性质：链条中每一箭头都要有条件",
@@ -957,13 +829,10 @@
     "题目只给缺陷数，能判断输运性质吗？"
    ],
    "axiom": null,
-   "ref": "H03 P17",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P17"
   },
   {
    "id": "H03-12",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "05 从缺陷到材料性质：链条中每一箭头都要有条件",
@@ -979,13 +848,10 @@
     "推性质时“缺陷→机制→性质”怎么写？"
    ],
    "axiom": null,
-   "ref": "H03 P18",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P18"
   },
   {
    "id": "H03-13",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "06 陌生材料统一流程与收束",
@@ -1001,13 +867,10 @@
     "从晶胞结构到价态与性质有哪些步骤？"
    ],
    "axiom": null,
-   "ref": "H03 P19",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P19"
   },
   {
    "id": "H03-14",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "04 掺杂、占位率与非整比组成",
@@ -1023,13 +886,10 @@
     "A₀.₇₅B和A₃B₄有什么区别？"
    ],
    "axiom": null,
-   "ref": "H03 P14",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P14"
   },
   {
    "id": "H03-15",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "04 掺杂、占位率与非整比组成",
@@ -1045,13 +905,10 @@
     "如果补偿不只靠氧空位还能用这个式子吗？"
    ],
    "axiom": null,
-   "ref": "H03 P12",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P12"
   },
   {
    "id": "H03-16",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "H03",
    "section": "06 陌生材料统一流程与收束",
@@ -1067,13 +924,10 @@
     "没有机理证据能推断材料性质吗？"
    ],
    "axiom": null,
-   "ref": "H03 P20",
-   "status": "AI 已核",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx"
+   "ref": "H03 P20"
   },
   {
    "id": "K08-01",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "02 从局部π键到共轭：先检查连续性",
@@ -1089,13 +943,10 @@
     "共轭和普通的一根π键有什么区别？"
    ],
    "axiom": null,
-   "ref": "K08 P3",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P3"
   },
   {
    "id": "K08-02",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "02 从局部π键到共轭：先检查连续性",
@@ -1111,13 +962,10 @@
     "是不是整个分子都必须共面？"
    ],
    "axiom": null,
-   "ref": "K08 P4",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P4"
   },
   {
    "id": "K08-03",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "02 从局部π键到共轭：先检查连续性",
@@ -1133,13 +981,10 @@
     "1,3-丁二烯与隔断的双键结构差在哪？"
    ],
    "axiom": null,
-   "ref": "K08 P5",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P5"
   },
   {
    "id": "K08-04",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "03 确定范围：电子只能在连续通道内离域",
@@ -1155,13 +1000,10 @@
     "怎么给离域体系划范围？"
    ],
    "axiom": null,
-   "ref": "K08 P6",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P6"
   },
   {
    "id": "K08-05",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "03 确定范围：电子只能在连续通道内离域",
@@ -1183,13 +1025,10 @@
      "delocalized"
     ]
    },
-   "ref": "K08 P7",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P7"
   },
   {
    "id": "K08-06",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "04 大π键怎样记录范围和电子数",
@@ -1205,13 +1044,10 @@
     "没找清共轭范围能不能先写大π记号？"
    ],
    "axiom": null,
-   "ref": "K08 P8",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P8"
   },
   {
    "id": "K08-07",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "04 大π键怎样记录范围和电子数",
@@ -1232,13 +1068,10 @@
      "delocalized"
     ]
    },
-   "ref": "K08 P9",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P9"
   },
   {
    "id": "K08-08",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "05 三类代表模型：苯、羧酸根与碳酸根",
@@ -1259,13 +1092,10 @@
      "delocalized"
     ]
    },
-   "ref": "K08 P10",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P10"
   },
   {
    "id": "K08-09",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "05 三类代表模型：苯、羧酸根与碳酸根",
@@ -1282,13 +1112,10 @@
     "丁二烯中间C—C键能和C=C直接看成一样吗？"
    ],
    "axiom": null,
-   "ref": "K08 P11",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P11"
   },
   {
    "id": "K08-10",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "05 三类代表模型：苯、羧酸根与碳酸根",
@@ -1309,13 +1136,10 @@
      "delocalized"
     ]
    },
-   "ref": "K08 P12",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P12"
   },
   {
    "id": "K08-11",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "06 孤电子对与扩展离域：含氮结构和石墨",
@@ -1331,13 +1155,10 @@
     "孤电子对参与离域会不会影响配位能力？"
    ],
    "axiom": null,
-   "ref": "K08 P13",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P13"
   },
   {
    "id": "K08-12",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "06 孤电子对与扩展离域：含氮结构和石墨",
@@ -1358,13 +1179,10 @@
      "bond_type"
     ]
    },
-   "ref": "K08 P14",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P14"
   },
   {
    "id": "K08-13",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "07 陌生结构怎样读取：五步法与咪唑鎓环",
@@ -1380,13 +1198,10 @@
     "有平面结构就够了吗？"
    ],
    "axiom": null,
-   "ref": "K08 P15",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P15"
   },
   {
    "id": "K08-14",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "07 陌生结构怎样读取：五步法与咪唑鎓环",
@@ -1402,13 +1217,10 @@
     "为什么咪唑鎓总共6个π电子？"
    ],
    "axiom": null,
-   "ref": "K08 P16",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P16"
   },
   {
    "id": "K08-15",
-   "team": "AI整理",
    "tier": "进阶",
    "lecture": "K08",
    "section": "08 误区、答题工具与全章收束",
@@ -1426,13 +1238,10 @@
     "四个常见误区究竟缺了什么条件？"
    ],
    "axiom": null,
-   "ref": "K08 P18",
-   "status": "AI 已核",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx"
+   "ref": "K08 P18"
   },
   {
    "id": "K09-01",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "02 晶体、非晶体与晶胞：先把研究对象说清",
@@ -1450,13 +1259,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K09 P3",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P3"
   },
   {
    "id": "K09-02",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "02 晶体、非晶体与晶胞：先把研究对象说清",
@@ -1472,13 +1278,10 @@
     "为什么晶胞边界的球不能直接全算进来？"
    ],
    "axiom": null,
-   "ref": "K09 P4",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P4"
   },
   {
    "id": "K09-03",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "03 四类晶体：先判微粒与作用力",
@@ -1496,13 +1299,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K09 P5",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P5"
   },
   {
    "id": "K09-04",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "03 四类晶体：先判微粒与作用力",
@@ -1523,13 +1323,10 @@
      "bond_type"
     ]
    },
-   "ref": "K09 P6",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P6"
   },
   {
    "id": "K09-05",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "03 四类晶体：先判微粒与作用力",
@@ -1550,13 +1347,10 @@
      "bond_type"
     ]
    },
-   "ref": "K09 P7",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P7"
   },
   {
    "id": "K09-06",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "03 四类晶体：先判微粒与作用力",
@@ -1578,13 +1372,10 @@
      "bond_type"
     ]
    },
-   "ref": "K09 P8",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P8"
   },
   {
    "id": "K09-07",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "03 四类晶体：先判微粒与作用力",
@@ -1605,13 +1396,10 @@
      "neighbors"
     ]
    },
-   "ref": "K09 P9",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P9"
   },
   {
    "id": "K09-08",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "03 四类晶体：先判微粒与作用力",
@@ -1629,13 +1417,10 @@
    "axiom": {
     "card": "metallic_bond"
    },
-   "ref": "K09 P10",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P10"
   },
   {
    "id": "K09-09",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "03 四类晶体：先判微粒与作用力",
@@ -1656,13 +1441,10 @@
      "bond_type"
     ]
    },
-   "ref": "K09 P12",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P12"
   },
   {
    "id": "K09-10",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "04 结构怎样解释性质",
@@ -1680,13 +1462,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K09 P13",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P13"
   },
   {
    "id": "K09-11",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "05 均摊法：先看位置，再乘共享比例",
@@ -1708,13 +1487,10 @@
      "shared"
     ]
    },
-   "ref": "K09 P15",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P15"
   },
   {
    "id": "K09-12",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "05 均摊法：先看位置，再乘共享比例",
@@ -1731,13 +1507,10 @@
     "算出1∶1为什么不一定有AB分子？"
    ],
    "axiom": null,
-   "ref": "K09 P16—P17；K09 P24",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P16—P17；K09 P24"
   },
   {
    "id": "K09-13",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "06 典型结构：计数、配位、最近邻分开",
@@ -1760,13 +1533,10 @@
      "neighbors"
     ]
    },
-   "ref": "K09 P18",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P18"
   },
   {
    "id": "K09-14",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "06 典型结构：计数、配位、最近邻分开",
@@ -1788,13 +1558,10 @@
      "neighbors"
     ]
    },
-   "ref": "K09 P20—P21",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P20—P21"
   },
   {
    "id": "K09-15",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "06 典型结构：计数、配位、最近邻分开",
@@ -1810,13 +1577,10 @@
     "画出来的辅助线一定是化学键吗？"
    ],
    "axiom": null,
-   "ref": "K09 P22",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P22"
   },
   {
    "id": "K09-16",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K09",
    "section": "06 典型结构：计数、配位、最近邻分开",
@@ -1839,13 +1603,33 @@
      "neighbors"
     ]
    },
-   "ref": "K09 P23",
-   "status": "AI 已核",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx"
+   "ref": "K09 P23"
+  },
+  {
+   "id": "K09-17",
+   "tier": "基础",
+   "lecture": "K09",
+   "section": "03 四类晶体：先判微粒与作用力",
+   "point": "Al₂O₃ 高中按共价晶体处理",
+   "conclusion": "人教版把偏向共价晶体的过渡晶体当作共价晶体来处理，如 Al₂O₃、SiO₂。Al₂O₃ 的化学键中离子键成分的百分数为 41%，不到一半。也有资料把 Al₂O₃ 写作离子晶体，高中按人教版，当作共价晶体处理。",
+   "steps": "①不要因为含金属元素就判为离子晶体；②看离子键成分：Al₂O₃ 为 41%，不到一半；③高中按人教版当作共价晶体处理",
+   "errors": [
+    "E-CRYS-62"
+   ],
+   "questions": [
+    "氧化铝是共价晶体还是离子晶体？",
+    "Al₂O₃ 属于什么晶体？",
+    "三氧化二铝是离子晶体吗？",
+    "氧化铝含金属元素，为什么不算离子晶体？",
+    "刚玉（Al₂O₃）为什么当作共价晶体？"
+   ],
+   "axiom": {
+    "card": "al2o3_type"
+   },
+   "ref": "人教 p.89"
   },
   {
    "id": "K10-01",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "02 晶胞参数与立方体几何骨架",
@@ -1861,13 +1645,10 @@
     "如果夹角不是90°，体积还能写abc吗？"
    ],
    "axiom": null,
-   "ref": "K10 P2",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P2"
   },
   {
    "id": "K10-02",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "02 晶胞参数与立方体几何骨架",
@@ -1883,13 +1664,10 @@
     "我怎么知道该用面对角线还是体对角线？"
    ],
    "axiom": null,
-   "ref": "K10 P3",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P3"
   },
   {
    "id": "K10-03",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "02 晶胞参数与立方体几何骨架",
@@ -1905,13 +1683,10 @@
     "第三条棱不垂直底面还能直接乘c吗？"
    ],
    "axiom": null,
-   "ref": "K10 P4",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P4"
   },
   {
    "id": "K10-04",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "02 晶胞参数与立方体几何骨架",
@@ -1927,13 +1702,10 @@
     "没有说相切时可以把距离写成半径和吗？"
    ],
    "axiom": null,
-   "ref": "K10 P5",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P5"
   },
   {
    "id": "K10-05",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "03 三种立方结构：不背公式，现场推接触线",
@@ -1954,13 +1726,10 @@
      "contact"
     ]
    },
-   "ref": "K10 P6",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P6"
   },
   {
    "id": "K10-06",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "03 三种立方结构：不背公式，现场推接触线",
@@ -1981,13 +1750,10 @@
      "contact"
     ]
    },
-   "ref": "K10 P7",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P7"
   },
   {
    "id": "K10-07",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "03 三种立方结构：不背公式，现场推接触线",
@@ -2008,13 +1774,10 @@
      "contact"
     ]
    },
-   "ref": "K10 P8",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P8"
   },
   {
    "id": "K10-08",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "04 同为1∶1，NaCl与CsCl的距离关系为什么不同",
@@ -2036,13 +1799,10 @@
      "lines"
     ]
    },
-   "ref": "K10 P10",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P10"
   },
   {
    "id": "K10-09",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "05 晶胞质量、体积与密度：从m/V自然推出",
@@ -2064,13 +1824,10 @@
      "density"
     ]
    },
-   "ref": "K10 P12",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P12"
   },
   {
    "id": "K10-10",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "05 晶胞质量、体积与密度：从m/V自然推出",
@@ -2086,13 +1843,10 @@
     "0.5 nm立方后能只给0.5立方吗？"
    ],
    "axiom": null,
-   "ref": "K10 P13",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P13"
   },
   {
    "id": "K10-11",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "05 晶胞质量、体积与密度：从m/V自然推出",
@@ -2114,13 +1868,10 @@
      "density"
     ]
    },
-   "ref": "K10 P14",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P14"
   },
   {
    "id": "K10-12",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "05 晶胞质量、体积与密度：从m/V自然推出",
@@ -2141,13 +1892,10 @@
      "density"
     ]
    },
-   "ref": "K10 P15",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P15"
   },
   {
    "id": "K10-13",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "05 晶胞质量、体积与密度：从m/V自然推出",
@@ -2163,13 +1911,10 @@
     "什么时候才可以根据测量误差判断接近4？"
    ],
    "axiom": null,
-   "ref": "K10 P17",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P17"
   },
   {
    "id": "K10-14",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "06 基础分数坐标：只把位置说清",
@@ -2185,13 +1930,10 @@
     "换一个原点以后同一点坐标会变吗？"
    ],
    "axiom": null,
-   "ref": "K10 P19",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P19"
   },
   {
    "id": "K10-15",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "05 晶胞质量、体积与密度：从m/V自然推出",
@@ -2213,13 +1955,10 @@
      "density"
     ]
    },
-   "ref": "K10 P16",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P16"
   },
   {
    "id": "K10-16",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "06 基础分数坐标：只把位置说清",
@@ -2235,13 +1974,10 @@
     "看到坐标0或1时该先确认什么？"
    ],
    "axiom": null,
-   "ref": "K10 P20",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P20"
   },
   {
    "id": "K10-17",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "06 基础分数坐标：只把位置说清",
@@ -2257,13 +1993,10 @@
     "立方晶胞原点到面心的距离是多少？"
    ],
    "axiom": null,
-   "ref": "K10 P21",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P21"
   },
   {
    "id": "K10-18",
-   "team": "AI整理",
    "tier": "基础",
    "lecture": "K10",
    "section": "07 全章收束：一张晶胞图按什么顺序读",
@@ -2286,13 +2019,10 @@
      "density"
     ]
    },
-   "ref": "K10 P22",
-   "status": "AI 已核",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx"
+   "ref": "K10 P22"
   },
   {
    "id": "K01-01",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "01 开场：周期表为什么会重复",
@@ -2308,13 +2038,10 @@
    "axiom": {
     "card": "blocks"
    },
-   "ref": "K01 P1、P19",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P1、P19"
   },
   {
    "id": "K01-02",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "02 从原子到核外电子",
@@ -2335,13 +2062,10 @@
      "orbitals"
     ]
    },
-   "ref": "K01 P2",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P2"
   },
   {
    "id": "K01-03",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "02 从原子到核外电子",
@@ -2357,13 +2081,10 @@
     "元素和核素到底差在哪个数？"
    ],
    "axiom": null,
-   "ref": "K01 P3",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P3"
   },
   {
    "id": "K01-04",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "03 先认识对象，再描述一个电子",
@@ -2384,13 +2105,10 @@
      "orbitals"
     ]
    },
-   "ref": "K01 P4",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P4"
   },
   {
    "id": "K01-05",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "03 先认识对象，再描述一个电子",
@@ -2411,13 +2129,10 @@
      "orbitals"
     ]
    },
-   "ref": "K01 P5",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P5"
   },
   {
    "id": "K01-06",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "03 先认识对象，再描述一个电子",
@@ -2438,13 +2153,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P6",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P6"
   },
   {
    "id": "K01-07",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K01",
    "section": "03 先认识对象，再描述一个电子",
@@ -2460,13 +2172,10 @@
     "n、l、mₗ都知道了，电子就完全确定了吗？"
    ],
    "axiom": null,
-   "ref": "K01 P7",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P7"
   },
   {
    "id": "K01-08",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "03 先认识对象，再描述一个电子",
@@ -2487,13 +2196,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P8、P13",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P8、P13"
   },
   {
    "id": "K01-09",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "03 先认识对象，再描述一个电子",
@@ -2511,13 +2217,10 @@
    "axiom": {
     "card": "aufbau"
    },
-   "ref": "K01 P8、P14",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P8、P14"
   },
   {
    "id": "K01-10",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "03 先认识对象，再描述一个电子",
@@ -2538,13 +2241,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P10",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P10"
   },
   {
    "id": "K01-11",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "04 电子怎样排布",
@@ -2562,13 +2262,10 @@
    "axiom": {
     "card": "aufbau"
    },
-   "ref": "K01 P11—P12、P15",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P11—P12、P15"
   },
   {
    "id": "K01-12",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "04 电子怎样排布",
@@ -2586,13 +2283,10 @@
    "axiom": {
     "card": "lowest_energy"
    },
-   "ref": "K01 P13",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P13"
   },
   {
    "id": "K01-13",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "04 电子怎样排布",
@@ -2611,13 +2305,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P14",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P14"
   },
   {
    "id": "K01-14",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "05 真实基态与离子",
@@ -2638,13 +2329,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P15",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P15"
   },
   {
    "id": "K01-15",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "05 真实基态与离子",
@@ -2665,13 +2353,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P16—P17",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P16—P17"
   },
   {
    "id": "K01-16",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "06 电子排布怎样形成周期表",
@@ -2687,13 +2372,10 @@
    "axiom": {
     "card": "aufbau"
    },
-   "ref": "K01 P18",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P18"
   },
   {
    "id": "K01-17",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "06 电子排布怎样形成周期表",
@@ -2711,13 +2393,10 @@
    "axiom": {
     "card": "blocks"
    },
-   "ref": "K01 P19",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P19"
   },
   {
    "id": "K01-18",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "06 电子排布怎样形成周期表",
@@ -2735,13 +2414,10 @@
    "axiom": {
     "card": "blocks"
    },
-   "ref": "K01 P19",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P19"
   },
   {
    "id": "K01-19",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "06 电子排布怎样形成周期表",
@@ -2762,13 +2438,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P20",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P20"
   },
   {
    "id": "K01-20",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "07 电子排布与元素位置",
@@ -2786,13 +2459,10 @@
    "axiom": {
     "card": "blocks"
    },
-   "ref": "K01 P19、P21",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P19、P21"
   },
   {
    "id": "K01-21",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "07 电子排布与元素位置",
@@ -2813,13 +2483,10 @@
      "blocks"
     ]
    },
-   "ref": "K01 P22—P23",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P22—P23"
   },
   {
    "id": "K01-22",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "07 电子排布与元素位置",
@@ -2835,13 +2502,10 @@
    "axiom": {
     "card": "blocks"
    },
-   "ref": "K01 P24、P31",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P24、P31"
   },
   {
    "id": "K01-23",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "08 由电子排布解释状态与性质",
@@ -2862,13 +2526,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K01 P13、P25",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P13、P25"
   },
   {
    "id": "K01-24",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "08 由电子排布解释状态与性质",
@@ -2884,13 +2545,10 @@
     "基态和激发态电子数一样时，差别在哪？"
    ],
    "axiom": null,
-   "ref": "K01 P26",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P26"
   },
   {
    "id": "K01-25",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K01",
    "section": "08 由电子排布解释状态与性质",
@@ -2906,13 +2564,10 @@
     "电子回落时光的频率由什么决定？"
    ],
    "axiom": null,
-   "ref": "K01 P27",
-   "status": "草稿",
-   "file": "K01_队员(2)_改.docx"
+   "ref": "K01 P27"
   },
   {
    "id": "K02-01",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "02 先搭解释框架：三个主控变量",
@@ -2930,13 +2585,10 @@
    "axiom": {
     "card": "radius_trend"
    },
-   "ref": "K02 P1—P2；P23",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P1—P2；P23"
   },
   {
    "id": "K02-02",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "02 先搭解释框架：三个主控变量",
@@ -2954,13 +2606,10 @@
    "axiom": {
     "card": "radius_trend"
    },
-   "ref": "K02 P3",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P3"
   },
   {
    "id": "K02-03",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "03 半径比较：先分对象，再选规则",
@@ -2982,13 +2631,10 @@
      "trend_radius"
     ]
    },
-   "ref": "K02 P4",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P4"
   },
   {
    "id": "K02-04",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "03 半径比较：先分对象，再选规则",
@@ -3010,13 +2656,10 @@
      "trend_radius"
     ]
    },
-   "ref": "K02 P5",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P5"
   },
   {
    "id": "K02-05",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "03 半径比较：先分对象，再选规则",
@@ -3032,13 +2675,10 @@
    "axiom": {
     "card": "radius_trend"
    },
-   "ref": "K02 P6",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P6"
   },
   {
    "id": "K02-06",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "04 电负性：成键时谁更能拉电子",
@@ -3054,13 +2694,10 @@
    "axiom": {
     "card": "en_trend"
    },
-   "ref": "K02 P7",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P7"
   },
   {
    "id": "K02-07",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "04 电负性：成键时谁更能拉电子",
@@ -3076,13 +2713,10 @@
     "一对共用电子是不是必须平均分？"
    ],
    "axiom": null,
-   "ref": "K02 P8",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P8"
   },
   {
    "id": "K02-08",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "05 第一电离能：先读定义与单位，再解释趋势和反常",
@@ -3100,13 +2734,10 @@
    "axiom": {
     "card": "ie_trend"
    },
-   "ref": "K02 P9",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P9"
   },
   {
    "id": "K02-09",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "05 第一电离能：先读定义与单位，再解释趋势和反常",
@@ -3125,13 +2756,10 @@
    "axiom": {
     "card": "ie_trend"
    },
-   "ref": "K02 P10",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P10"
   },
   {
    "id": "K02-10",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "05 第一电离能：先读定义与单位，再解释趋势和反常",
@@ -3149,13 +2777,10 @@
    "axiom": {
     "card": "ie_trend"
    },
-   "ref": "K02 P11；P13",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P11；P13"
   },
   {
    "id": "K02-11",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "05 第一电离能：先读定义与单位，再解释趋势和反常",
@@ -3173,13 +2798,10 @@
    "axiom": {
     "card": "ie_trend"
    },
-   "ref": "K02 P12—P13",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P12—P13"
   },
   {
    "id": "K02-12",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "05 第一电离能：先读定义与单位，再解释趋势和反常",
@@ -3197,13 +2819,10 @@
    "axiom": {
     "card": "ie_trend"
    },
-   "ref": "K02 P12—P13",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P12—P13"
   },
   {
    "id": "K02-13",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "06 逐级电离能：先辨起点，再从突跃读价电子",
@@ -3221,13 +2840,10 @@
    "axiom": {
     "card": "successive_ie"
    },
-   "ref": "K02 P14",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P14"
   },
   {
    "id": "K02-14",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "06 逐级电离能：先辨起点，再从突跃读价电子",
@@ -3249,13 +2865,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K02 P15",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P15"
   },
   {
    "id": "K02-15",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "06 逐级电离能：先辨起点，再从突跃读价电子",
@@ -3273,13 +2886,10 @@
    "axiom": {
     "card": "successive_ie"
    },
-   "ref": "K02 P14；P16",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P14；P16"
   },
   {
    "id": "K02-16",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "07 三种微观量一次分清",
@@ -3297,13 +2907,10 @@
    "axiom": {
     "card": "ie_trend"
    },
-   "ref": "K02 P17",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P17"
   },
   {
    "id": "K02-17",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "08 从微观性质推到宏观表现",
@@ -3321,13 +2928,10 @@
    "axiom": {
     "card": "en_trend"
    },
-   "ref": "K02 P18",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P18"
   },
   {
    "id": "K02-18",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "08 从微观性质推到宏观表现",
@@ -3344,13 +2948,10 @@
     "只看到气泡就能说发生金属置换吗？"
    ],
    "axiom": null,
-   "ref": "K02 P19—P20",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P19—P20"
   },
   {
    "id": "K02-19",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "08 从微观性质推到宏观表现",
@@ -3367,13 +2968,10 @@
     "对应水化物是不是氧化物都能直接加水得到？"
    ],
    "axiom": null,
-   "ref": "K02 P20—P21",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P20—P21"
   },
   {
    "id": "K02-20",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K02",
    "section": "08 从微观性质推到宏观表现",
@@ -3390,13 +2988,10 @@
     "同族氢化物越往下为什么不稳定？"
    ],
    "axiom": null,
-   "ref": "K02 P22",
-   "status": "草稿",
-   "file": "K02_队员(2)_改.docx"
+   "ref": "K02 P22"
   },
   {
    "id": "K03-01",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "01 开场：价电子怎样把原子连起来",
@@ -3412,13 +3007,10 @@
     "成键时看单个原子能量还是整个体系？"
    ],
    "axiom": null,
-   "ref": "K03 P1—P2",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P1—P2"
   },
   {
    "id": "K03-02",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "02 三类基本化学键：先看电子怎样参与",
@@ -3434,13 +3026,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K03 P3—P6",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P3—P6"
   },
   {
    "id": "K03-03",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "02 三类基本化学键：先看电子怎样参与",
@@ -3462,13 +3051,10 @@
      "bond_type"
     ]
    },
-   "ref": "K03 P4",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P4"
   },
   {
    "id": "K03-04",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "02 三类基本化学键：先看电子怎样参与",
@@ -3489,13 +3075,10 @@
      "sigma_pi"
     ]
    },
-   "ref": "K03 P5",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P5"
   },
   {
    "id": "K03-05",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "02 三类基本化学键：先看电子怎样参与",
@@ -3513,13 +3096,10 @@
    "axiom": {
     "card": "metallic_bond"
    },
-   "ref": "K03 P6",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P6"
   },
   {
    "id": "K03-06",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "03 键型、物质类别与电子偏向",
@@ -3537,13 +3117,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K03 P7",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P7"
   },
   {
    "id": "K03-07",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "03 键型、物质类别与电子偏向",
@@ -3564,13 +3141,10 @@
      "polarity"
     ]
    },
-   "ref": "K03 P8",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P8"
   },
   {
    "id": "K03-08",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "04 把价电子画出来：电子式与Lewis结构",
@@ -3586,13 +3160,10 @@
     "Lewis结构里孤电子对能省掉吗？"
    ],
    "axiom": null,
-   "ref": "K03 P9",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P9"
   },
   {
    "id": "K03-09",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "04 把价电子画出来：电子式与Lewis结构",
@@ -3613,13 +3184,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K03 P10",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P10"
   },
   {
    "id": "K03-10",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "04 把价电子画出来：电子式与Lewis结构",
@@ -3638,13 +3206,10 @@
      "lone_pairs"
     ]
    },
-   "ref": "K03 P11；P15",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P11；P15"
   },
   {
    "id": "K03-11",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "04 把价电子画出来：电子式与Lewis结构",
@@ -3665,13 +3230,10 @@
      "labels"
     ]
    },
-   "ref": "K03 P12",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P12"
   },
   {
    "id": "K03-12",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "05 价电子账本：先算总数，再分配结构",
@@ -3690,13 +3252,10 @@
    "axiom": {
     "species": "NH4_1p"
    },
-   "ref": "K03 P13—P14",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P13—P14"
   },
   {
    "id": "K03-13",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "05 价电子账本：先算总数，再分配结构",
@@ -3717,13 +3276,10 @@
      "sigma_pi"
     ]
    },
-   "ref": "K03 P11；P15；P17—P18",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P11；P15；P17—P18"
   },
   {
    "id": "K03-14",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "05 价电子账本：先算总数，再分配结构",
@@ -3745,13 +3301,10 @@
      "angle"
     ]
    },
-   "ref": "K03 P16",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P16"
   },
   {
    "id": "K03-15",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "05 价电子账本：先算总数，再分配结构",
@@ -3767,13 +3320,10 @@
     "三个键加一对孤电子算几个价层电子对？"
    ],
    "axiom": null,
-   "ref": "K03 P16",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P16"
   },
   {
    "id": "K03-16",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "06 结构检查：8电子边界与形式电荷",
@@ -3787,13 +3337,10 @@
     "满足8电子的粒子就一定不带电吗？"
    ],
    "axiom": null,
-   "ref": "K03 P17",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P17"
   },
   {
    "id": "K03-17",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K03",
    "section": "06 结构检查：8电子边界与形式电荷",
@@ -3809,13 +3356,10 @@
     "SO₂给了扩展价层结构能硬改吗？"
    ],
    "axiom": null,
-   "ref": "K03 P18；P16",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P18；P16"
   },
   {
    "id": "K03-18",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K03",
    "section": "06 结构检查：8电子边界与形式电荷",
@@ -3832,13 +3376,10 @@
     "NH₄⁺的N形式电荷+1是不是氧化数+1？"
    ],
    "axiom": null,
-   "ref": "K03 P19",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P19"
   },
   {
    "id": "K03-19",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "07 两条后续接口：配位键与等电子关系",
@@ -3856,13 +3397,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K03 P20",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P20"
   },
   {
    "id": "K03-20",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K03",
    "section": "07 两条后续接口：配位键与等电子关系",
@@ -3883,13 +3421,10 @@
      "angle"
     ]
    },
-   "ref": "K03 P21",
-   "status": "草稿",
-   "file": "K03_队员(1)_改.docx"
+   "ref": "K03 P21"
   },
   {
    "id": "K04-01",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "02 轨道怎样形成键：σ骨架与π附加",
@@ -3905,13 +3440,10 @@
     "成键为什么会使体系更稳定？"
    ],
    "axiom": null,
-   "ref": "K04 P2",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P2"
   },
   {
    "id": "K04-02",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "02 轨道怎样形成键：σ骨架与π附加",
@@ -3934,13 +3466,10 @@
      "sigma_pi"
     ]
    },
-   "ref": "K04 P3；P5",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P3；P5"
   },
   {
    "id": "K04-03",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "02 轨道怎样形成键：σ骨架与π附加",
@@ -3962,13 +3491,10 @@
      "sigma_pi"
     ]
    },
-   "ref": "K04 P4",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P4"
   },
   {
    "id": "K04-04",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "03 把轨道图变成可计算口径",
@@ -3989,13 +3515,10 @@
      "sigma_pi"
     ]
    },
-   "ref": "K04 P6",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P6"
   },
   {
    "id": "K04-05",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "03 把轨道图变成可计算口径",
@@ -4014,13 +3537,10 @@
    "axiom": {
     "card": "bond_params"
    },
-   "ref": "K04 P7",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P7"
   },
   {
    "id": "K04-06",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "04 从Lewis结构到价层电子对：VSEPR先数什么",
@@ -4042,13 +3562,10 @@
      "lone_pairs"
     ]
    },
-   "ref": "K04 P8",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P8"
   },
   {
    "id": "K04-07",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "04 从Lewis结构到价层电子对：VSEPR先数什么",
@@ -4069,13 +3586,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P9",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P9"
   },
   {
    "id": "K04-08",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "04 从Lewis结构到价层电子对：VSEPR先数什么",
@@ -4097,13 +3611,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P10",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P10"
   },
   {
    "id": "K04-09",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "05 VSEPR按价层电子对推演：2个价层电子对、3个价层电子对、4个价层电子对",
@@ -4122,13 +3633,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P11",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P11"
   },
   {
    "id": "K04-10",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "05 VSEPR按价层电子对推演：2个价层电子对、3个价层电子对、4个价层电子对",
@@ -4150,13 +3658,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P12",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P12"
   },
   {
    "id": "K04-11",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "05 VSEPR按价层电子对推演：2个价层电子对、3个价层电子对、4个价层电子对",
@@ -4178,13 +3683,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P13",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P13"
   },
   {
    "id": "K04-12",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "05 VSEPR按价层电子对推演：2个价层电子对、3个价层电子对、4个价层电子对",
@@ -4206,13 +3708,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P13；P22",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P13；P22"
   },
   {
    "id": "K04-13",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "05 VSEPR按价层电子对推演：2个价层电子对、3个价层电子对、4个价层电子对",
@@ -4232,13 +3731,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P14；P1；P25",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P14；P1；P25"
   },
   {
    "id": "K04-14",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "06 杂化：用轨道解释VSEPR给出的方向",
@@ -4259,13 +3755,10 @@
      "hybrid"
     ]
    },
-   "ref": "K04 P15",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P15"
   },
   {
    "id": "K04-15",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "06 杂化：用轨道解释VSEPR给出的方向",
@@ -4287,13 +3780,10 @@
      "lone_pairs"
     ]
    },
-   "ref": "K04 P16",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P16"
   },
   {
    "id": "K04-16",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "06 杂化：用轨道解释VSEPR给出的方向",
@@ -4316,13 +3806,10 @@
      "sigma_pi"
     ]
    },
-   "ref": "K04 P17",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P17"
   },
   {
    "id": "K04-17",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "06 杂化：用轨道解释VSEPR给出的方向",
@@ -4346,13 +3833,10 @@
      "sigma_pi"
     ]
    },
-   "ref": "K04 P18",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P18"
   },
   {
    "id": "K04-18",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "06 杂化：用轨道解释VSEPR给出的方向",
@@ -4373,13 +3857,10 @@
      "hybrid"
     ]
    },
-   "ref": "K04 P15；P19",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P15；P19"
   },
   {
    "id": "K04-19",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "07 同一结构的三种读取与键角修正",
@@ -4400,13 +3881,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P21",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P21"
   },
   {
    "id": "K04-20",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "07 同一结构的三种读取与键角修正",
@@ -4422,13 +3900,10 @@
     "含氮原子都能套同一句口诀吗？"
    ],
    "axiom": null,
-   "ref": "K04 P20；P18—P19",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P20；P18—P19"
   },
   {
    "id": "K04-21",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "07 同一结构的三种读取与键角修正",
@@ -4450,13 +3925,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P22",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P22"
   },
   {
    "id": "K04-22",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "07 同一结构的三种读取与键角修正",
@@ -4478,13 +3950,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P22",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P22"
   },
   {
    "id": "K04-23",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K04",
    "section": "08 结构迁移与扩展骨架",
@@ -4506,13 +3975,10 @@
      "hybrid"
     ]
    },
-   "ref": "K04 P23",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P23"
   },
   {
    "id": "K04-24",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K04",
    "section": "08 结构迁移与扩展骨架",
@@ -4531,13 +3997,10 @@
      "angle"
     ]
    },
-   "ref": "K04 P24",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P24"
   },
   {
    "id": "K04-25",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K04",
    "section": "08 结构迁移与扩展骨架",
@@ -4553,13 +4016,10 @@
     "三对孤电子对放好后两个F还剩哪里？"
    ],
    "axiom": null,
-   "ref": "K04 P24",
-   "status": "草稿",
-   "file": "K04_队员(1)_改.docx"
+   "ref": "K04 P24"
   },
   {
    "id": "K05-01",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "02 分子极性与镜像辨析",
@@ -4580,13 +4040,10 @@
      "polarity"
     ]
    },
-   "ref": "K05 P2；P6",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P2；P6"
   },
   {
    "id": "K05-02",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "02 分子极性与镜像辨析",
@@ -4602,13 +4059,10 @@
     "Cl—Cl也有永久键偶极吗？"
    ],
    "axiom": null,
-   "ref": "K05 P3",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P3"
   },
   {
    "id": "K05-03",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "02 分子极性与镜像辨析",
@@ -4629,13 +4083,10 @@
      "polarity"
     ]
    },
-   "ref": "K05 P4",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P4"
   },
   {
    "id": "K05-04",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "02 分子极性与镜像辨析",
@@ -4656,13 +4107,10 @@
      "polarity"
     ]
    },
-   "ref": "K05 P5—P6",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P5—P6"
   },
   {
    "id": "K05-05",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "02 分子极性与镜像辨析",
@@ -4683,13 +4131,10 @@
      "chiral"
     ]
    },
-   "ref": "K05 P7",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P7"
   },
   {
    "id": "K05-06",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "02 分子极性与镜像辨析",
@@ -4707,13 +4152,10 @@
    "axiom": {
     "card": "chirality"
    },
-   "ref": "K05 P8",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P8"
   },
   {
    "id": "K05-07",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "03 从分子内转向分子间",
@@ -4731,13 +4173,10 @@
    "axiom": {
     "card": "vdw"
    },
-   "ref": "K05 P9；P15",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P9；P15"
   },
   {
    "id": "K05-08",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "03 从分子内转向分子间",
@@ -4756,13 +4195,10 @@
    "axiom": {
     "card": "vdw"
    },
-   "ref": "K05 P10",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P10"
   },
   {
    "id": "K05-09",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "03 从分子内转向分子间",
@@ -4780,13 +4216,10 @@
    "axiom": {
     "card": "vdw"
    },
-   "ref": "K05 P11",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P11"
   },
   {
    "id": "K05-10",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "03 从分子内转向分子间",
@@ -4804,13 +4237,10 @@
    "axiom": {
     "card": "vdw"
    },
-   "ref": "K05 P11",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P11"
   },
   {
    "id": "K05-11",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "04 氢键：结构条件、作用位置与性质方向",
@@ -4831,13 +4261,10 @@
      "hbond"
     ]
    },
-   "ref": "K05 P12",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P12"
   },
   {
    "id": "K05-12",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "04 氢键：结构条件、作用位置与性质方向",
@@ -4855,13 +4282,10 @@
    "axiom": {
     "card": "hydrogen_bond"
    },
-   "ref": "K05 P13",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P13"
   },
   {
    "id": "K05-13",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "04 氢键：结构条件、作用位置与性质方向",
@@ -4879,13 +4303,10 @@
    "axiom": {
     "card": "hydrogen_bond"
    },
-   "ref": "K05 P14",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P14"
   },
   {
    "id": "K05-14",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "05 把分子间作用落到物性",
@@ -4903,13 +4324,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K05 P15",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P15"
   },
   {
    "id": "K05-15",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "05 把分子间作用落到物性",
@@ -4927,13 +4345,10 @@
    "axiom": {
     "card": "vdw"
    },
-   "ref": "K05 P16",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P16"
   },
   {
    "id": "K05-16",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "05 把分子间作用落到物性",
@@ -4951,13 +4366,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K05 P17",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P17"
   },
   {
    "id": "K05-17",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "05 把分子间作用落到物性",
@@ -4975,13 +4387,10 @@
    "axiom": {
     "card": "vdw"
    },
-   "ref": "K05 P17",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P17"
   },
   {
    "id": "K05-18",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "06 溶解：旧作用怎样被新作用替换",
@@ -4999,13 +4408,10 @@
    "axiom": {
     "card": "solubility"
    },
-   "ref": "K05 P18",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P18"
   },
   {
    "id": "K05-19",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "06 溶解：旧作用怎样被新作用替换",
@@ -5023,13 +4429,10 @@
    "axiom": {
     "card": "solubility"
    },
-   "ref": "K05 P19",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P19"
   },
   {
    "id": "K05-20",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "06 溶解：旧作用怎样被新作用替换",
@@ -5047,13 +4450,10 @@
    "axiom": {
     "card": "hydrogen_bond"
    },
-   "ref": "K05 P19；P12",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P19；P12"
   },
   {
    "id": "K05-21",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "07 陌生弱作用：只按题给信息读",
@@ -5071,13 +4471,10 @@
    "axiom": {
     "card": "supramolecule"
    },
-   "ref": "K05 P20",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P20"
   },
   {
    "id": "K05-22",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K05",
    "section": "08 工具页与收束",
@@ -5093,13 +4490,10 @@
    "axiom": {
     "card": "crystal_types"
    },
-   "ref": "K05 P21—P22；P1",
-   "status": "草稿",
-   "file": "K05_队员(1)_改.docx"
+   "ref": "K05 P21—P22；P1"
   },
   {
    "id": "K06-01",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "02 先分清三个观察尺度",
@@ -5120,13 +4514,10 @@
      "polarity"
     ]
    },
-   "ref": "K06 P1—P2",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P1—P2"
   },
   {
    "id": "K06-02",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "03 从键上偏移读到局部电子密度",
@@ -5142,13 +4533,10 @@
     "δ和离子电荷是一回事吗？"
    ],
    "axiom": null,
-   "ref": "K06 P3",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P3"
   },
   {
    "id": "K06-03",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "03 从键上偏移读到局部电子密度",
@@ -5169,13 +4557,10 @@
      "lone_pairs"
     ]
    },
-   "ref": "K06 P4",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P4"
   },
   {
    "id": "K06-04",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "03 从键上偏移读到局部电子密度",
@@ -5191,13 +4576,10 @@
     "总电荷和某个位置的δ能直接互换吗？"
    ],
    "axiom": null,
-   "ref": "K06 P5",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P5"
   },
   {
    "id": "K06-05",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "04 电子影响怎样沿结构传递",
@@ -5213,13 +4595,10 @@
     "这里主要沿σ键还是沿π键传？"
    ],
    "axiom": null,
-   "ref": "K06 P6",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P6"
   },
   {
    "id": "K06-06",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "04 电子影响怎样沿结构传递",
@@ -5235,13 +4614,10 @@
     "比较共轭碱时能拿中性酸代替吗？"
    ],
    "axiom": null,
-   "ref": "K06 P7",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P7"
   },
   {
    "id": "K06-07",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "04 电子影响怎样沿结构传递",
@@ -5256,13 +4632,10 @@
     "为什么要先看失去H⁺后的离子？"
    ],
    "axiom": null,
-   "ref": "K06 P7",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P7"
   },
   {
    "id": "K06-08",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "05 从富缺电子走到供体与受体",
@@ -5283,13 +4656,10 @@
      "lone_pairs"
     ]
    },
-   "ref": "K06 P8",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P8"
   },
   {
    "id": "K06-09",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "05 从富缺电子走到供体与受体",
@@ -5305,13 +4675,10 @@
     "位点靠不过去还会一定反应吗？"
    ],
    "axiom": null,
-   "ref": "K06 P8；P15—P17",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P8；P15—P17"
   },
   {
    "id": "K06-10",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "05 从富缺电子走到供体与受体",
@@ -5332,13 +4699,10 @@
      "hybrid"
     ]
    },
-   "ref": "K06 P9",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P9"
   },
   {
    "id": "K06-11",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "05 从富缺电子走到供体与受体",
@@ -5359,13 +4723,10 @@
      "lone_pairs"
     ]
    },
-   "ref": "K06 P10",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P10"
   },
   {
    "id": "K06-12",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "06 Lewis语言与电子对箭头",
@@ -5381,13 +4742,10 @@
     "BF₃接受电子对该叫什么？"
    ],
    "axiom": null,
-   "ref": "K06 P11",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P11"
   },
   {
    "id": "K06-13",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "06 Lewis语言与电子对箭头",
@@ -5403,13 +4761,10 @@
     "遇到题目怎么先选观察对象？"
    ],
    "axiom": null,
-   "ref": "K06 P11",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P11"
   },
   {
    "id": "K06-14",
-   "team": "队员",
    "tier": "进阶",
    "lecture": "K06",
    "section": "06 Lewis语言与电子对箭头",
@@ -5431,13 +4786,10 @@
      "lone_pairs"
     ]
    },
-   "ref": "K06 P12",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P12"
   },
   {
    "id": "K06-15",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "06 Lewis语言与电子对箭头",
@@ -5455,13 +4807,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K06 P13",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P13"
   },
   {
    "id": "K06-16",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "07 从最小模型迁移到陌生结构",
@@ -5479,13 +4828,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K06 P14",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P14"
   },
   {
    "id": "K06-17",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "07 从最小模型迁移到陌生结构",
@@ -5501,13 +4847,10 @@
     "四步法是不是能预测所有反应？"
    ],
    "axiom": null,
-   "ref": "K06 P15—P17",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P15—P17"
   },
   {
    "id": "K06-18",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K06",
    "section": "07 从最小模型迁移到陌生结构",
@@ -5521,13 +4864,10 @@
     "规范解释为什么要加在题给条件下？"
    ],
    "axiom": null,
-   "ref": "K06 P15—P17；P18",
-   "status": "草稿",
-   "file": "K06_队员_改.docx"
+   "ref": "K06 P15—P17；P18"
   },
   {
    "id": "K07-01",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "02 为什么能配位，配合物怎样分层",
@@ -5545,13 +4885,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P2",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P2"
   },
   {
    "id": "K07-02",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "02 为什么能配位，配合物怎样分层",
@@ -5569,13 +4906,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P3",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P3"
   },
   {
    "id": "K07-03",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "02 为什么能配位，配合物怎样分层",
@@ -5593,13 +4927,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P4",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P4"
   },
   {
    "id": "K07-04",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "03 三个计数口径：最容易错的地方",
@@ -5617,13 +4948,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P5",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P5"
   },
   {
    "id": "K07-05",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "03 三个计数口径：最容易错的地方",
@@ -5641,13 +4969,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P6",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P6"
   },
   {
    "id": "K07-06",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "03 三个计数口径：最容易错的地方",
@@ -5663,13 +4988,10 @@
     "多齿配体连起来什么时候叫螯合？"
    ],
    "axiom": null,
-   "ref": "K07 P7",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P7"
   },
   {
    "id": "K07-07",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "03 三个计数口径：最容易错的地方",
@@ -5685,13 +5007,10 @@
     "桥了几个中心就等于配位数吗？"
    ],
    "axiom": null,
-   "ref": "K07 P8",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P8"
   },
   {
    "id": "K07-08",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "04 电荷账本与化学式层级",
@@ -5709,13 +5028,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P9",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P9"
   },
   {
    "id": "K07-09",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "04 电荷账本与化学式层级",
@@ -5731,13 +5047,10 @@
     "六个CN⁻和Fe价态是同一套计数吗？"
    ],
    "axiom": null,
-   "ref": "K07 P10；P5",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P10；P5"
   },
   {
    "id": "K07-10",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "04 电荷账本与化学式层级",
@@ -5758,13 +5071,10 @@
      "coordination"
     ]
    },
-   "ref": "K07 P11",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P11"
   },
   {
    "id": "K07-11",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "05 构型、中心离子排布与磁性",
@@ -5780,13 +5090,10 @@
     "过渡金属配合物能直接套主族VSEPR吗？"
    ],
    "axiom": null,
-   "ref": "K07 P12",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P12"
   },
   {
    "id": "K07-12",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "05 构型、中心离子排布与磁性",
@@ -5807,13 +5114,10 @@
      "orbital_box"
     ]
    },
-   "ref": "K07 P13",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P13"
   },
   {
    "id": "K07-13",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "06 从结构读到性质，再完成一遍完整读取",
@@ -5831,13 +5135,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P14",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P14"
   },
   {
    "id": "K07-14",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "06 从结构读到性质，再完成一遍完整读取",
@@ -5858,13 +5159,10 @@
      "coordination"
     ]
    },
-   "ref": "K07 P14",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P14"
   },
   {
    "id": "K07-15",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "06 从结构读到性质，再完成一遍完整读取",
@@ -5880,13 +5178,10 @@
     "配体有两类为什么配位数不是2？"
    ],
    "axiom": null,
-   "ref": "K07 P15",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P15"
   },
   {
    "id": "K07-16",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "06 从结构读到性质，再完成一遍完整读取",
@@ -5902,13 +5197,10 @@
     "读完化学式能直接猜所有性质吗？"
    ],
    "axiom": null,
-   "ref": "K07 P16；P4",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P16；P4"
   },
   {
    "id": "K07-17",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "06 从结构读到性质，再完成一遍完整读取",
@@ -5926,13 +5218,10 @@
    "axiom": {
     "card": "coordination"
    },
-   "ref": "K07 P17；P21",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P17；P21"
   },
   {
    "id": "K07-18",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "07 短迁移：部分共价物质为什么可能水解",
@@ -5948,13 +5237,10 @@
     "这节能不能自己补出所有中间体？"
    ],
    "axiom": null,
-   "ref": "K07 P18",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P18"
   },
   {
    "id": "K07-19",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "07 短迁移：部分共价物质为什么可能水解",
@@ -5970,13 +5256,10 @@
     "水的箭头应从O指向哪里？"
    ],
    "axiom": null,
-   "ref": "K07 P19",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P19"
   },
   {
    "id": "K07-20",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "07 短迁移：部分共价物质为什么可能水解",
@@ -5992,13 +5275,10 @@
     "为什么换个中心就不能照搬箭头？"
    ],
    "axiom": null,
-   "ref": "K07 P20",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P20"
   },
   {
    "id": "K07-21",
-   "team": "队员",
    "tier": "基础",
    "lecture": "K07",
    "section": "07 短迁移：部分共价物质为什么可能水解",
@@ -6014,9 +5294,7 @@
     "四项检查是不是完整机理公式？"
    ],
    "axiom": null,
-   "ref": "K07 P20；P18—P19",
-   "status": "草稿",
-   "file": "K07_队员_改.docx"
+   "ref": "K07 P20；P18—P19"
   }
  ],
  "errors": [
@@ -6028,10 +5306,7 @@
    "cards": [
     "H01-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-BOND-02",
@@ -6041,10 +5316,7 @@
    "cards": [
     "H01-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-BOND-03",
@@ -6054,10 +5326,7 @@
    "cards": [
     "H01-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-BOND-04",
@@ -6067,10 +5336,7 @@
    "cards": [
     "H01-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-BOND-05",
@@ -6080,10 +5346,7 @@
    "cards": [
     "H01-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-BOND-06",
@@ -6093,10 +5356,7 @@
    "cards": [
     "H01-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-14",
@@ -6106,10 +5366,7 @@
    "cards": [
     "H01-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-15",
@@ -6119,10 +5376,7 @@
    "cards": [
     "H01-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-16",
@@ -6132,10 +5386,7 @@
    "cards": [
     "H01-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-17",
@@ -6145,10 +5396,7 @@
    "cards": [
     "H01-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-18",
@@ -6158,10 +5406,7 @@
    "cards": [
     "H01-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-19",
@@ -6172,10 +5417,7 @@
     "H01-12",
     "H01-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-20",
@@ -6185,10 +5427,7 @@
    "cards": [
     "H01-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-21",
@@ -6198,10 +5437,7 @@
    "cards": [
     "H01-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-COORD-22",
@@ -6211,10 +5447,7 @@
    "cards": [
     "H01-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H01_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-30",
@@ -6225,10 +5458,7 @@
     "K10-14",
     "H02-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-34",
@@ -6238,10 +5468,7 @@
    "cards": [
     "H02-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-35",
@@ -6251,10 +5478,7 @@
    "cards": [
     "H02-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-36",
@@ -6265,10 +5489,7 @@
     "H02-04",
     "H02-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-37",
@@ -6278,10 +5499,7 @@
    "cards": [
     "H02-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-38",
@@ -6291,10 +5509,7 @@
    "cards": [
     "H02-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-39",
@@ -6304,10 +5519,7 @@
    "cards": [
     "H02-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-40",
@@ -6317,10 +5529,7 @@
    "cards": [
     "H02-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-41",
@@ -6331,10 +5540,7 @@
     "H02-09",
     "H02-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-42",
@@ -6344,10 +5550,7 @@
    "cards": [
     "H02-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-43",
@@ -6357,10 +5560,7 @@
    "cards": [
     "H02-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-44",
@@ -6370,10 +5570,7 @@
    "cards": [
     "H02-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-45",
@@ -6383,10 +5580,7 @@
    "cards": [
     "H02-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-46",
@@ -6396,10 +5590,7 @@
    "cards": [
     "H02-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H02_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-47",
@@ -6409,10 +5600,7 @@
    "cards": [
     "H03-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-48",
@@ -6422,10 +5610,7 @@
    "cards": [
     "H03-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-49",
@@ -6435,10 +5620,7 @@
    "cards": [
     "H03-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-50",
@@ -6448,10 +5630,7 @@
    "cards": [
     "H03-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-51",
@@ -6462,10 +5641,7 @@
     "H03-05",
     "H03-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-52",
@@ -6475,10 +5651,7 @@
    "cards": [
     "H03-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-53",
@@ -6488,10 +5661,7 @@
    "cards": [
     "H03-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-54",
@@ -6501,10 +5671,7 @@
    "cards": [
     "H03-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-55",
@@ -6514,10 +5681,7 @@
    "cards": [
     "H03-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-56",
@@ -6527,10 +5691,7 @@
    "cards": [
     "H03-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-57",
@@ -6540,10 +5701,7 @@
    "cards": [
     "H03-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-58",
@@ -6553,10 +5711,7 @@
    "cards": [
     "H03-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-59",
@@ -6567,10 +5722,7 @@
     "H03-13",
     "H03-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-60",
@@ -6580,10 +5732,7 @@
    "cards": [
     "H03-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-61",
@@ -6593,10 +5742,7 @@
    "cards": [
     "H03-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_H03_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-01",
@@ -6608,10 +5754,7 @@
     "K08-02",
     "K08-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-02",
@@ -6622,10 +5765,7 @@
     "K08-03",
     "K08-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-03",
@@ -6636,10 +5776,7 @@
     "K08-04",
     "K08-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-04",
@@ -6649,10 +5786,7 @@
    "cards": [
     "K08-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-05",
@@ -6662,10 +5796,7 @@
    "cards": [
     "K08-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-06",
@@ -6676,10 +5807,7 @@
     "K08-07",
     "K08-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-07",
@@ -6690,10 +5818,7 @@
     "K08-08",
     "K08-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-08",
@@ -6703,10 +5828,7 @@
    "cards": [
     "K08-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-09",
@@ -6716,10 +5838,7 @@
    "cards": [
     "K08-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-10",
@@ -6729,10 +5848,7 @@
    "cards": [
     "K08-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-11",
@@ -6743,10 +5859,7 @@
     "K08-13",
     "K08-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-DELOC-12",
@@ -6756,10 +5869,7 @@
    "cards": [
     "K08-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K08_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-01",
@@ -6769,10 +5879,7 @@
    "cards": [
     "K09-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-02",
@@ -6782,10 +5889,7 @@
    "cards": [
     "K09-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-03",
@@ -6795,10 +5899,7 @@
    "cards": [
     "K09-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-04",
@@ -6808,10 +5909,7 @@
    "cards": [
     "K09-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-05",
@@ -6821,10 +5919,7 @@
    "cards": [
     "K09-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-06",
@@ -6834,10 +5929,7 @@
    "cards": [
     "K09-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-07",
@@ -6847,10 +5939,7 @@
    "cards": [
     "K09-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-08",
@@ -6860,10 +5949,7 @@
    "cards": [
     "K09-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-09",
@@ -6873,10 +5959,7 @@
    "cards": [
     "K09-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-10",
@@ -6886,10 +5969,7 @@
    "cards": [
     "K09-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-11",
@@ -6901,10 +5981,7 @@
     "K09-12",
     "K09-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-12",
@@ -6914,10 +5991,7 @@
    "cards": [
     "K09-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-13",
@@ -6929,10 +6003,7 @@
     "K09-14",
     "K09-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-14",
@@ -6942,10 +6013,7 @@
    "cards": [
     "K09-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-15",
@@ -6955,10 +6023,7 @@
    "cards": [
     "K09-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-16",
@@ -6968,10 +6033,7 @@
    "cards": [
     "K09-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K09_Knowledge_Cards_Errors_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-17",
@@ -6981,10 +6043,7 @@
    "cards": [
     "K10-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-18",
@@ -6994,10 +6053,7 @@
    "cards": [
     "K10-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-19",
@@ -7007,10 +6063,7 @@
    "cards": [
     "K10-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-20",
@@ -7020,10 +6073,7 @@
    "cards": [
     "K10-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-21",
@@ -7033,10 +6083,7 @@
    "cards": [
     "K10-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-22",
@@ -7046,10 +6093,7 @@
    "cards": [
     "K10-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-23",
@@ -7059,10 +6103,7 @@
    "cards": [
     "K10-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-24",
@@ -7072,10 +6113,7 @@
    "cards": [
     "K10-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-25",
@@ -7086,10 +6124,7 @@
     "K10-09",
     "K10-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-26",
@@ -7100,10 +6135,7 @@
     "K10-10",
     "K10-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-27",
@@ -7113,10 +6145,7 @@
    "cards": [
     "K10-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-28",
@@ -7126,10 +6155,7 @@
    "cards": [
     "K10-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-29",
@@ -7139,10 +6165,7 @@
    "cards": [
     "K10-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-31",
@@ -7152,10 +6175,7 @@
    "cards": [
     "K10-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-32",
@@ -7165,10 +6185,7 @@
    "cards": [
     "K10-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
   },
   {
    "id": "E-CRYS-33",
@@ -7178,10 +6195,17 @@
    "cards": [
     "K10-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "AXIOM_K10_Cards_Reviewed_改.docx",
-   "origin": "AI整理"
+   "candidate": false
+  },
+  {
+   "id": "E-CRYS-62",
+   "name": "氧化铝误作离子晶体",
+   "symptom": "看到 Al₂O₃ 含金属元素，就把它判为离子晶体",
+   "correct": "Al₂O₃ 是偏向共价晶体的过渡晶体，高中按人教版当作共价晶体",
+   "cards": [
+    "K09-17"
+   ],
+   "candidate": false
   },
   {
    "id": "E-K01-01",
@@ -7191,10 +6215,7 @@
    "cards": [
     "K01-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-02",
@@ -7204,10 +6225,7 @@
    "cards": [
     "K01-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-03",
@@ -7217,10 +6235,7 @@
    "cards": [
     "K01-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-04",
@@ -7230,10 +6245,7 @@
    "cards": [
     "K01-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-05",
@@ -7243,10 +6255,7 @@
    "cards": [
     "K01-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-06",
@@ -7256,10 +6265,7 @@
    "cards": [
     "K01-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-07",
@@ -7269,10 +6275,7 @@
    "cards": [
     "K01-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-08",
@@ -7282,10 +6285,7 @@
    "cards": [
     "K01-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-09",
@@ -7295,10 +6295,7 @@
    "cards": [
     "K01-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-10",
@@ -7308,10 +6305,7 @@
    "cards": [
     "K01-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-11",
@@ -7321,10 +6315,7 @@
    "cards": [
     "K01-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-12",
@@ -7334,10 +6325,7 @@
    "cards": [
     "K01-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-13",
@@ -7347,10 +6335,7 @@
    "cards": [
     "K01-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-14",
@@ -7360,10 +6345,7 @@
    "cards": [
     "K01-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-15",
@@ -7373,10 +6355,7 @@
    "cards": [
     "K01-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-16",
@@ -7386,10 +6365,7 @@
    "cards": [
     "K01-19"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-17",
@@ -7399,10 +6375,7 @@
    "cards": [
     "K01-20"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-18",
@@ -7412,10 +6385,7 @@
    "cards": [
     "K01-21"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-19",
@@ -7425,10 +6395,7 @@
    "cards": [
     "K01-23"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-20",
@@ -7438,10 +6405,7 @@
    "cards": [
     "K01-24"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K01-21",
@@ -7451,10 +6415,7 @@
    "cards": [
     "K01-25"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K01_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-01",
@@ -7464,10 +6425,7 @@
    "cards": [
     "K02-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-02",
@@ -7477,10 +6435,7 @@
    "cards": [
     "K02-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-03",
@@ -7490,10 +6445,7 @@
    "cards": [
     "K02-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-04",
@@ -7503,10 +6455,7 @@
    "cards": [
     "K02-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-05",
@@ -7516,10 +6465,7 @@
    "cards": [
     "K02-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-06",
@@ -7529,10 +6475,7 @@
    "cards": [
     "K02-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-07",
@@ -7542,10 +6485,7 @@
    "cards": [
     "K02-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-08",
@@ -7555,10 +6495,7 @@
    "cards": [
     "K02-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-09",
@@ -7568,10 +6505,7 @@
    "cards": [
     "K02-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-10",
@@ -7581,10 +6515,7 @@
    "cards": [
     "K02-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-11",
@@ -7594,10 +6525,7 @@
    "cards": [
     "K02-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-12",
@@ -7607,10 +6535,7 @@
    "cards": [
     "K02-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-13",
@@ -7620,10 +6545,7 @@
    "cards": [
     "K02-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-14",
@@ -7633,10 +6555,7 @@
    "cards": [
     "K02-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-15",
@@ -7646,10 +6565,7 @@
    "cards": [
     "K02-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-16",
@@ -7659,10 +6575,7 @@
    "cards": [
     "K02-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-17",
@@ -7672,10 +6585,7 @@
    "cards": [
     "K02-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-18",
@@ -7685,10 +6595,7 @@
    "cards": [
     "K02-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-19",
@@ -7698,10 +6605,7 @@
    "cards": [
     "K02-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-20",
@@ -7711,10 +6615,7 @@
    "cards": [
     "K02-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-21",
@@ -7724,10 +6625,7 @@
    "cards": [
     "K02-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-22",
@@ -7737,10 +6635,7 @@
    "cards": [
     "K02-19"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-23",
@@ -7750,10 +6645,7 @@
    "cards": [
     "K02-19"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-24",
@@ -7763,10 +6655,7 @@
    "cards": [
     "K02-20"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K02-25",
@@ -7776,10 +6665,7 @@
    "cards": [
     "K02-20"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K02_队员(2)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-01",
@@ -7789,10 +6675,7 @@
    "cards": [
     "K03-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-02",
@@ -7802,10 +6685,7 @@
    "cards": [
     "K03-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-03",
@@ -7815,10 +6695,7 @@
    "cards": [
     "K03-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-04",
@@ -7828,10 +6705,7 @@
    "cards": [
     "K03-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-05",
@@ -7841,10 +6715,7 @@
    "cards": [
     "K03-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-06",
@@ -7854,10 +6725,7 @@
    "cards": [
     "K03-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-07",
@@ -7867,10 +6735,7 @@
    "cards": [
     "K03-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-08",
@@ -7880,10 +6745,7 @@
    "cards": [
     "K03-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-09",
@@ -7893,10 +6755,7 @@
    "cards": [
     "K03-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-10",
@@ -7906,10 +6765,7 @@
    "cards": [
     "K03-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-11",
@@ -7919,10 +6775,7 @@
    "cards": [
     "K03-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-12",
@@ -7932,10 +6785,7 @@
    "cards": [
     "K03-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-13",
@@ -7945,10 +6795,7 @@
    "cards": [
     "K03-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-14",
@@ -7958,10 +6805,7 @@
    "cards": [
     "K03-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-15",
@@ -7971,10 +6815,7 @@
    "cards": [
     "K03-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-16",
@@ -7984,10 +6825,7 @@
    "cards": [
     "K03-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-17",
@@ -7997,10 +6835,7 @@
    "cards": [
     "K03-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-18",
@@ -8010,10 +6845,7 @@
    "cards": [
     "K03-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-19",
@@ -8023,10 +6855,7 @@
    "cards": [
     "K03-19"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K03-20",
@@ -8036,10 +6865,7 @@
    "cards": [
     "K03-20"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K03_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-01",
@@ -8049,10 +6875,7 @@
    "cards": [
     "K04-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-02",
@@ -8062,10 +6885,7 @@
    "cards": [
     "K04-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-03",
@@ -8075,10 +6895,7 @@
    "cards": [
     "K04-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-04",
@@ -8088,10 +6905,7 @@
    "cards": [
     "K04-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-05",
@@ -8101,10 +6915,7 @@
    "cards": [
     "K04-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-06",
@@ -8114,10 +6925,7 @@
    "cards": [
     "K04-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-07",
@@ -8127,10 +6935,7 @@
    "cards": [
     "K04-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-08",
@@ -8140,10 +6945,7 @@
    "cards": [
     "K04-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-09",
@@ -8153,10 +6955,7 @@
    "cards": [
     "K04-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-10",
@@ -8166,10 +6965,7 @@
    "cards": [
     "K04-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-11",
@@ -8179,10 +6975,7 @@
    "cards": [
     "K04-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-12",
@@ -8192,10 +6985,7 @@
    "cards": [
     "K04-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-13",
@@ -8205,10 +6995,7 @@
    "cards": [
     "K04-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-14",
@@ -8218,10 +7005,7 @@
    "cards": [
     "K04-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-15",
@@ -8231,10 +7015,7 @@
    "cards": [
     "K04-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-16",
@@ -8244,10 +7025,7 @@
    "cards": [
     "K04-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-17",
@@ -8257,10 +7035,7 @@
    "cards": [
     "K04-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-18",
@@ -8270,10 +7045,7 @@
    "cards": [
     "K04-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-19",
@@ -8283,10 +7055,7 @@
    "cards": [
     "K04-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-20",
@@ -8296,10 +7065,7 @@
    "cards": [
     "K04-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-21",
@@ -8309,10 +7075,7 @@
    "cards": [
     "K04-20"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-22",
@@ -8322,10 +7085,7 @@
    "cards": [
     "K04-21"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-23",
@@ -8335,10 +7095,7 @@
    "cards": [
     "K04-22"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-24",
@@ -8348,10 +7105,7 @@
    "cards": [
     "K04-23"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K04-25",
@@ -8361,10 +7115,7 @@
    "cards": [
     "K04-25"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K04_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-01",
@@ -8374,10 +7125,7 @@
    "cards": [
     "K05-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-02",
@@ -8387,10 +7135,7 @@
    "cards": [
     "K05-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-03",
@@ -8400,10 +7145,7 @@
    "cards": [
     "K05-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-04",
@@ -8413,10 +7155,7 @@
    "cards": [
     "K05-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-05",
@@ -8426,10 +7165,7 @@
    "cards": [
     "K05-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-06",
@@ -8439,10 +7175,7 @@
    "cards": [
     "K05-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-07",
@@ -8452,10 +7185,7 @@
    "cards": [
     "K05-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-08",
@@ -8465,10 +7195,7 @@
    "cards": [
     "K05-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-09",
@@ -8478,10 +7205,7 @@
    "cards": [
     "K05-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-10",
@@ -8491,10 +7215,7 @@
    "cards": [
     "K05-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-11",
@@ -8504,10 +7225,7 @@
    "cards": [
     "K05-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-12",
@@ -8517,10 +7235,7 @@
    "cards": [
     "K05-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-13",
@@ -8530,10 +7245,7 @@
    "cards": [
     "K05-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-14",
@@ -8543,10 +7255,7 @@
    "cards": [
     "K05-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-15",
@@ -8556,10 +7265,7 @@
    "cards": [
     "K05-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-16",
@@ -8569,10 +7275,7 @@
    "cards": [
     "K05-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-17",
@@ -8582,10 +7285,7 @@
    "cards": [
     "K05-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-18",
@@ -8595,10 +7295,7 @@
    "cards": [
     "K05-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-19",
@@ -8608,10 +7305,7 @@
    "cards": [
     "K05-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-20",
@@ -8621,10 +7315,7 @@
    "cards": [
     "K05-19"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-21",
@@ -8634,10 +7325,7 @@
    "cards": [
     "K05-20"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K05-22",
@@ -8647,10 +7335,7 @@
    "cards": [
     "K05-21"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K05_队员(1)_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-01",
@@ -8660,10 +7345,7 @@
    "cards": [
     "K06-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-02",
@@ -8673,10 +7355,7 @@
    "cards": [
     "K06-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-03",
@@ -8686,10 +7365,7 @@
    "cards": [
     "K06-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-04",
@@ -8699,10 +7375,7 @@
    "cards": [
     "K06-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-05",
@@ -8712,10 +7385,7 @@
    "cards": [
     "K06-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-06",
@@ -8725,10 +7395,7 @@
    "cards": [
     "K06-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-07",
@@ -8738,10 +7405,7 @@
    "cards": [
     "K06-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-08",
@@ -8751,10 +7415,7 @@
    "cards": [
     "K06-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-09",
@@ -8764,10 +7425,7 @@
    "cards": [
     "K06-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-10",
@@ -8777,10 +7435,7 @@
    "cards": [
     "K06-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-11",
@@ -8790,10 +7445,7 @@
    "cards": [
     "K06-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-12",
@@ -8803,10 +7455,7 @@
    "cards": [
     "K06-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-13",
@@ -8816,10 +7465,7 @@
    "cards": [
     "K06-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-14",
@@ -8829,10 +7475,7 @@
    "cards": [
     "K06-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-15",
@@ -8842,10 +7485,7 @@
    "cards": [
     "K06-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-16",
@@ -8855,10 +7495,7 @@
    "cards": [
     "K06-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-17",
@@ -8868,10 +7505,7 @@
    "cards": [
     "K06-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K06-18",
@@ -8881,10 +7515,7 @@
    "cards": [
     "K06-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K06_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-01",
@@ -8894,10 +7525,7 @@
    "cards": [
     "K07-01"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-02",
@@ -8907,10 +7535,7 @@
    "cards": [
     "K07-02"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-03",
@@ -8920,10 +7545,7 @@
    "cards": [
     "K07-03"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-04",
@@ -8933,10 +7555,7 @@
    "cards": [
     "K07-04"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-05",
@@ -8946,10 +7565,7 @@
    "cards": [
     "K07-05"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-06",
@@ -8959,10 +7575,7 @@
    "cards": [
     "K07-06"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-07",
@@ -8972,10 +7585,7 @@
    "cards": [
     "K07-07"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-08",
@@ -8985,10 +7595,7 @@
    "cards": [
     "K07-08"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-09",
@@ -8998,10 +7605,7 @@
    "cards": [
     "K07-09"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-10",
@@ -9011,10 +7615,7 @@
    "cards": [
     "K07-10"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-11",
@@ -9024,10 +7625,7 @@
    "cards": [
     "K07-11"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-12",
@@ -9037,10 +7635,7 @@
    "cards": [
     "K07-12"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-13",
@@ -9050,10 +7645,7 @@
    "cards": [
     "K07-13"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-14",
@@ -9063,10 +7655,7 @@
    "cards": [
     "K07-14"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-15",
@@ -9076,10 +7665,7 @@
    "cards": [
     "K07-15"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-16",
@@ -9089,10 +7675,7 @@
    "cards": [
     "K07-16"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-17",
@@ -9102,10 +7685,7 @@
    "cards": [
     "K07-17"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-18",
@@ -9115,10 +7695,7 @@
    "cards": [
     "K07-18"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-19",
@@ -9128,10 +7705,7 @@
    "cards": [
     "K07-19"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-20",
@@ -9141,10 +7715,7 @@
    "cards": [
     "K07-20"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   },
   {
    "id": "E-K07-21",
@@ -9154,10 +7725,7 @@
    "cards": [
     "K07-21"
    ],
-   "candidate": false,
-   "status": "已审定（2026-11-03）",
-   "file": "K07_队员_改.docx",
-   "origin": "队员"
+   "candidate": false
   }
  ]
 }
