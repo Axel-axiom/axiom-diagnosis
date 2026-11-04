@@ -1,0 +1,15 @@
+const $=s=>document.querySelector(s),frame=$('#axiom');let current=null,pending=null,timer;
+for(const [label,q]of [['分子形状','NH₃ 有三个 N—H 键，为什么不是平面三角形？'],['晶胞计数','面心立方晶胞里有几个原子？我数了14个。'],['配位数','[Co(NH₃)₅Cl]Cl₂ 里 Co 的配位数是几？']]){const b=document.createElement('button');b.type='button';b.textContent=label;b.onclick=()=>{$('#query').value=q;};$('#examples').append(b);}
+function text(tag,value,parent){const e=document.createElement(tag);e.textContent=value;parent.append(e);return e;}
+function openModel(){if(!current?.axiom)return;pending=current.axiom;frame.contentWindow.postMessage({type:'axiom:open',...pending},'*');const s=$('#model-status');if(s)s.textContent='正在打开模型…';clearTimeout(timer);timer=setTimeout(()=>{if($('#model-status'))$('#model-status').textContent='模型未响应，请稍后点击重试';},12000);}
+frame.addEventListener('load',()=>{if(current?.axiom)openModel();});
+window.addEventListener('message',e=>{if(e.source!==frame.contentWindow||e.data?.type!=='axiom:result')return;clearTimeout(timer);window.lastAxiomResult=e.data;const s=$('#model-status');if(s)s.textContent=e.data.ok?'模型已打开':String(e.data.message||e.data.error||'打开失败');});
+export function render(r){current=r;window.diagnosisResult=r;$('#mode').textContent=r.mode==='ai'?'AI':'知识库检索';$('#message').textContent=r.message||'';const host=$('#result');host.replaceChildren();if(!r.card)return;
+ const section=title=>{const a=document.createElement('article');text('h3',title,a);host.append(a);return a;};
+ if(r.error){const a=section('错因');text('h2',r.error.name,a);if(r.error.candidate)text('span','候选错因，待审定',a).className='badge';text('p',r.error.symptom,a);if(r.error.correct)text('p','正确理解：'+r.error.correct,a);}
+ const a=section('对应知识 · '+r.card.id);if(r.card.tier==='进阶')text('span','进阶内容',a).className='badge';text('h2',r.card.point,a);text('p',r.card.conclusion,a);text('p',r.card.steps,a);
+ if(r.explanation)text('p',r.explanation,section('AI 讲解 · AI 生成，供参考'));
+ const m=section('在三维模型中查看');if(r.axiom){const b=text('button','在三维模型中查看',m);b.onclick=openModel;text('p','',m).id='model-status';openModel();}else text('p','这张卡片暂无对应的三维模型',m);
+ if(r.alternatives.length){const alt=section('换一个');alt.id='alternatives';for(const c of r.alternatives){const b=text('button',c.point,alt);b.onclick=async()=>{try{const response=await fetch('/api/card/'+encodeURIComponent(c.id));if(!response.ok)throw Error();const next=await response.json();next.alternatives=[{id:r.card.id,point:r.card.point},...r.alternatives.filter(x=>x.id!==c.id)].slice(0,2);render(next);}catch{$('#message').textContent='切换失败，请重试';}};}}
+}
+$('#form').onsubmit=async e=>{e.preventDefault();$('#submit').disabled=true;$('#message').textContent='正在检索与诊断…';try{const response=await fetch('/api/diagnose',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query:$('#query').value})});const r=await response.json();if(!response.ok)throw Error(r.message);render(r);}catch(err){$('#message').textContent=err.message||'本地服务不可用，请检查启动状态';}finally{$('#submit').disabled=false;}};

@@ -1,0 +1,3 @@
+import {diagnose} from '../server.mjs';import {writeFile} from 'node:fs/promises';
+if(!process.env.DEEPSEEK_API_KEY)throw Error('请先在服务端环境设置 DEEPSEEK_API_KEY');
+const questions=['NH₃ 有三个 N—H 键，为什么不是平面三角形？','CO₂ 有两个双键，中心 C 是不是 4 个价层电子对？','He 的电子排布是 1s²，为什么不在 s 区？','氯乙酸的酸性为什么比乙酸强？','面心立方晶胞里有几个原子？我数了 14 个。','NaCl 晶胞中 Na⁺ 的配位数是多少？','[Co(NH₃)₅Cl]Cl₂ 里 Co 的配位数是几？','石墨既有共价键又有范德华力，算什么晶体？','水沸腾时是不是断开了 O—H 键？','Cr 的电子排布为什么是 3d⁵4s¹？'];const rows=[];for(const query of questions){const r=await diagnose(query);rows.push({query,mode:r.mode,card_id:r.card?.id||null,error_id:r.error?.id||null,explanation:r.explanation});}await writeFile('../报告/真实DeepSeek冒烟.json',JSON.stringify(rows,null,2));console.log('已保存 10 条真实调用记录，请核对 mode 是否为 ai。');
