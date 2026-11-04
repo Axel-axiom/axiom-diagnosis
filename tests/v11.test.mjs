@@ -15,3 +15,5 @@ test('单元素、化学键和带空格V形不阻止替换，未知多原子式�
 test('AI验收集支持默认、绝对和相对路径',async()=>{
  const {loadAcceptance}=await import('./eval-ai.mjs');const {mkdtemp,writeFile,rm}=await import('node:fs/promises');const {tmpdir}=await import('node:os');const path=await import('node:path');const folder=await mkdtemp(path.join(tmpdir(),'axiom-eval-path-'));try{const file=path.join(folder,'自定义验收集.json'),rows=[{q:'独立路径测试',ok:['TEST']}];await writeFile(file,JSON.stringify(rows));assert.deepEqual(await loadAcceptance(file),rows);assert.deepEqual(await loadAcceptance(path.relative(process.cwd(),file)),rows);assert.equal((await loadAcceptance()).length,35);}finally{await rm(folder,{recursive:true});}
 });
+
+test('知识库大写Π附件与AXIOM原件哈希',async()=>{const {createHash}=await import('node:crypto');const {readFile}=await import('node:fs/promises');for(const [file,expected]of [['data/kb.json','3E320EE5F6F4C79F8C535ED74430CB55E9613A547FE1ABD0867312B57476A768'],['public/axiom/AXIOM_Lab.html','BA71899D8434DA7E7086AAB424CC44BAC328F8D2D841180CE806F30E4C07F8AB']])assert.equal(createHash('sha256').update(await readFile(new URL('../'+file,import.meta.url))).digest('hex').toUpperCase(),expected);});
