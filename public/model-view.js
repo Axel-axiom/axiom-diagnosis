@@ -1,0 +1,2 @@
+export function filterLayers(request,catalog){const allowed=catalog.species.find(s=>s.id===request.species)?.layers||[];const layers=(request.layers||[]).filter(l=>allowed.includes(l));return {species:request.species,...(layers.length?{layers}:{})};}
+export function modelStatus(asked,actual,fromQuery){return asked&&actual!==asked?'这是同类示例模型：'+(actual||'未知')+'，不是你问的物质':fromQuery?'模型：按你的问题打开 '+actual:'模型：'+actual;}
