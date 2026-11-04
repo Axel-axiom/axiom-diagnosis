@@ -55,8 +55,10 @@ node tests/smoke.mjs
 
 接口测试会检查上述两个附件哈希。系统提示词补充“大π键记号写大写 Π，下标为原子数，上标为电子数。”；检索权重和阈值未调整。
 
-本轮默认 A 配置：DEEPSEEK_THINKING=disabled、DEEPSEEK_MAX_TOKENS=800；B 对照为 enabled / 4000。thinking 直接放在 HTTP 请求体顶层。环境变量仅接受 enabled/disabled 与正整数；非法配置返回明确原因，不发请求。调用超时保持每次15秒，最多两次。
+当前默认配置：DEEPSEEK_THINKING=enabled、DEEPSEEK_MAX_TOKENS=4000；上一轮 A/B 数据为历史对照，本次按用户要求将默认切换为 B。thinking 直接放在 HTTP 请求体顶层。环境变量仅接受 enabled/disabled 与正整数；非法配置返回明确原因，不发请求。调用超时保持每次15秒，最多两次。
 
 真实测试报告用 DEEPSEEK_REPORT_GROUP=A 或 B 分别写入相邻报告/A 或报告/B，不互相覆盖。每条保存各次finish_reason、usage.total_tokens及usage.completion_tokens_details.reasoning_tokens；未返回时记录null，不推算思考token，不记录reasoning_content或模型原始content。累计用量覆盖重试，带已报告次数，缺失不能当零。每条latency_ms从诊断开始至浏览器模型回执结束，model_trace.latency_ms单独记录模型调用耗时。
 
 本地错因只在问题唯一物种与错因明确提到的物种一致、或错因没有明确物种时保留；卡片照常显示。检索排序及阈值不改。
+
+卡片 axiom 为 null 时，若问题明确包含唯一已识别且有模型的物种，调用放在 view.axiom，原 card 与 axiom 不变。大π键问题请求 delocalized，由 AXIOM.catalog() 过滤后仅保留支持图层；card-only 调用仍不替换，未识别物种仍显示暂无模型。
