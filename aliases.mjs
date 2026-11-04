@@ -10,7 +10,7 @@ export function lex(input){
  const found=[],terms=[];let rest='';
  for(let i=0;i<s.length;){const n=names.find(n=>s.startsWith(n.name,i));if(n){if(n.id){found.push(n.id);terms.push(n.id.toLowerCase());}else terms.push('compound:'+n.name);rest+=' ';i+=n.name.length;continue;}
  const f=s.slice(i).match(/^nacl\b|^(?:[A-Z][a-z]?\d*)+(?:\s*\d*[+-])?|^[a-z]+\d[a-z\d]*(?:\s*\d*[+-])?|^(?:FCC|BCC|SC)\b/);
- if(f){const charge=f[0].match(/\s+(\d*[+-])$/);if(charge)terms.push('charge:'+charge[1]);const raw=f[0].replace(/\s+\d*[+-]$|[+-]$/,''),id=canonical.get(raw)||lower.get(raw);terms.push(id?id.toLowerCase():'formula:'+raw);found.push(id||'unknown:'+raw);rest+=' ';i+=f[0].length;continue;}
+ if(f){const charge=f[0].match(/\s+(\d*[+-])$/);if(charge)terms.push('charge:'+charge[1]);const raw=f[0].replace(/\s+\d*[+-]$|[+-]$/,''),id=canonical.get(raw)||lower.get(raw);terms.push(id?id.toLowerCase():'formula:'+raw);if(id||! /^[A-Z][a-z]?$/.test(raw))found.push(id||'unknown:'+raw);rest+=' ';i+=f[0].length;continue;}
  rest+=s[i++];}
  return {rest,terms,species:[...new Set(found)],complex};
 }
