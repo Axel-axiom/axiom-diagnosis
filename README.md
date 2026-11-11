@@ -40,7 +40,7 @@ macOS 或 Linux 使用 `export DEEPSEEK_API_KEY=你的密钥`。密钥只放在�
 | `view.mjs` | 按问题中的物质确定实际打开的模型 |
 | `src/` | React 诊断面板源码 |
 | `public/app.js` | 前端构建产物 |
-| `public/axiom/AXIOM_Lab.html` | 离线单文件三维模块（AXIOM Lab 0.13.3） |
+| `public/axiom/AXIOM_Lab.html` | 离线单文件三维模块（AXIOM Lab 0.14.0） |
 | `data/kb.json` | 只读知识库：249 张卡片、241 条错因、748 条问法 |
 | `tests/` | 接口、替换、检索、浏览器联动和真实模型测试 |
 | `docs/开发记录/` | 开发过程中的修订记录，其中的数字和哈希属于当时的版本 |
