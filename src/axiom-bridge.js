@@ -50,6 +50,8 @@ export function onFrameLoad(event){
 window.addEventListener('message',e=>{
   // 没有在等的请求时（例如已经换成没有模型的结果），过期回执不再改写状态
   if(e.source!==frame()?.contentWindow||e.data?.type!=='axiom:result'||!waiting)return;
+  // 连续两次打开时，上一次的迟到回执和这次请求的物种或卡片对不上，直接丢弃
+  const got=e.data.state;if(e.data.ok&&got&&pending&&(pending.species?got.species!==pending.species:got.card!==pending.card))return;
   clearTimeout(timer);
   // 按问题替换的模型打不开时，退回卡片预设的模型，只退一次。
   if(!e.data.ok&&fromQuery&&!fallback&&current.axiom){

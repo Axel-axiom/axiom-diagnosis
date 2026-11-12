@@ -16,16 +16,48 @@ const ions=new Map(Object.keys(ALIASES).filter(id=>/_\d+[mp]$/.test(id)).map(id=
 const lower=new Map(['H2O','NH3','CH4','CO2','SO2','C2H2','C2H4','C2H6','C6H6','CCl4','BF3','NaCl'].map(id=>[id.toLowerCase(),id]));
 for(const id of Object.keys(ALIASES).filter(id=>/\d/.test(id)&&!id.includes('_')&&!id.startsWith('AX')))lower.set(id.toLowerCase(),id);
 canonical.delete('ACID');for(const [f,id] of Object.entries(formulas)){canonical.set(f,id);lower.set(f.toLowerCase(),id);}
+// 下面几条只影响「问题里认出了哪些物质」（species），不改检索分词（terms、rest），检索分数不受影响。
+// 取代羧酸：酸名前紧挨着取代基（氟乙酸、溴乙酸、氨基乙酸、2-氯丙酸、苯乙酸…）时不是母体酸
+const SUBSTITUTED=/[氟氯溴碘基苯氧代\d-]$/;
+// 屏蔽词里是具体物质的，记作未知物质，让「苯甲酸和乙酸」这类比较题仍算两种物质
+const BLOCKED_SUBSTANCES=new Set(['甲苯','苯酚','苯甲酸','聚乙烯','氯甲烷','乙酸乙酯','甲酸甲酯','乙酸钠','醋酸钠','冰晶石']);
+// 不是物质的记号：电离能 I₁、I₃…（I₂ 也可能是碘单质，保留）、方法名、族序数、代号
+const NOT_SUBSTANCE=/^(?:I[13-9]|VSEPR|EDTA|LED|DNA|RNA|OP|M\d|[IVX]+[AB])$/;
+// 不带电荷时有歧义的写法：NO₂ 是中性分子，不能当亚硝酸根
+const AMBIGUOUS_BASE=new Set(['NO2']);
+function speciesFor(raw,spaced,tail){
+ if(!spaced&&!tail&&NOT_SUBSTANCE.test(raw))return null;
+ if(spaced)return ions.get(raw+':'+spaced)||(/^[A-Z][a-z]?$/.test(raw)?null:'unknown:'+raw+spaced);
+ if(tail){// 没有空格的电荷，如 NO2-、NH4+、SO42-、Ca2+
+  const hit=ions.get(raw+':'+tail)||(/\d$/.test(raw)?ions.get(raw.slice(0,-1)+':'+raw.slice(-1)+tail):null);
+  if(hit)return hit;
+  if(/^[A-Z][a-z]?\d*$/.test(raw))return null;// 单原子离子（Ca2+、Fe3+），不是模型里的物质
+  return 'unknown:'+raw+tail;}
+ if(AMBIGUOUS_BASE.has(raw))return 'unknown:'+raw;
+ return canonical.get(raw)||lower.get(raw)||null;
+}
 export function lex(input){
  let s=String(input).replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]*[⁺⁻])/g,m=>' '+m).normalize('NFKC').replace(/[−–—]/g,'-').replace(/离域π键|大派键/g,'大π键');
  s=s.replace(/V(?=形)/g,'v').replace(/【/g,'[').replace(/】/g,']');const complex=/[\[\]【】]/.test(s)||/干冰.*CO2|CO2.*干冰|结晶水|配位水|水化物/.test(s);
  s=s.replace(/\[[^\]]*\](?:\d*[+-])?/g,' ');
- const found=[],terms=[];let rest='';
- for(let i=0;i<s.length;){let n=names.find(n=>s.startsWith(n.name,i));if(n?.id?.startsWith('ACID_')&&DERIVED.test(s.slice(i+n.name.length)))n=null;if(n){if(NEUTRAL.has(n.name)){if(n.id)found.push(n.id);rest+=n.name;i+=n.name.length;continue;}if(n.id){found.push(n.id);terms.push(n.id.toLowerCase());}else terms.push('compound:'+n.name);rest+=' ';i+=n.name.length;continue;}
- const f=s.slice(i).match(/^hcp\b|^nacl\b|^(?:[A-Z][a-z]?\d*)+(?:\s*\d*[+-])?|^[a-z]+\d[a-z\d]*(?:\s*\d*[+-])?|^(?:FCC|BCC|SC)\b/);
- if(f){const charge=f[0].match(/\s+(\d*[+-])$/);if(charge)terms.push('charge:'+charge[1]);const raw=f[0].replace(/\s+\d*[+-]$|[+-]$/,''),id=ions.get(raw+':'+(charge?.[1]||''))||canonical.get(raw)||lower.get(raw);terms.push(id&&!NEUTRAL_IDS.has(id)?id.toLowerCase():'formula:'+raw);if(id||! /^[A-Z][a-z]?$/.test(raw))found.push(id||'unknown:'+raw);rest+=' ';i+=f[0].length;continue;}
- rest+=s[i++];}
- return {rest,terms,species:[...new Set(found)],complex};
+ const found=[],terms=[];let rest='',quiet=-1;
+ for(let i=0;i<s.length;){let n=names.find(n=>s.startsWith(n.name,i));
+  if(n?.id?.startsWith('ACID_')){const d=s.slice(i+n.name.length).match(DERIVED);if(d){if(i>=quiet)found.push('unknown:'+n.name+d[0]);quiet=i+n.name.length+d[0].length;n=null;}}
+  if(n){const own=i>=quiet;
+   if(NEUTRAL.has(n.name)){if(n.id&&own)found.push(n.id.startsWith('ACID_')&&SUBSTITUTED.test(s.slice(0,i))?'unknown:'+s[i-1]+n.name:n.id);rest+=n.name;i+=n.name.length;continue;}
+   if(n.id){if(own)found.push(n.id);terms.push(n.id.toLowerCase());}else{terms.push('compound:'+n.name);if(own&&BLOCKED_SUBSTANCES.has(n.name))found.push('unknown:'+n.name);}
+   rest+=' ';i+=n.name.length;continue;}
+  const f=s.slice(i).match(/^hcp\b|^nacl\b|^hcooh\b|^(?:[A-Z][a-z]?\d*)+(?:\s*\d*[+-])?|^[a-z]+\d[a-z\d]*(?:\s*\d*[+-])?|^(?:FCC|BCC|SC)\b/);
+  if(f){const charge=f[0].match(/\s+(\d*[+-])$/);if(charge)terms.push('charge:'+charge[1]);const raw=f[0].replace(/\s+\d*[+-]$|[+-]$/,''),id=ions.get(raw+':'+(charge?.[1]||''))||canonical.get(raw)||lower.get(raw);terms.push(id&&!NEUTRAL_IDS.has(id)?id.toLowerCase():'formula:'+raw);
+   const lowerCase=/^[a-z]/.test(raw),tail=!charge&&/[+-]$/.test(f[0])?f[0].slice(-1):'';
+   const sp=lowerCase?(lower.get(raw)||(raw==='hcp'?'hcp':null)):speciesFor(raw,charge?.[1]||'',tail);// 小写串（sp3、d64s2、a3）只认白名单里的化学式
+   if(i>=quiet&&(sp||(!lowerCase&&!/^[A-Z][a-z]?$/.test(raw)&&!NOT_SUBSTANCE.test(raw)&&!tail&&!charge)))found.push(sp||'unknown:'+raw);
+   rest+=' ';i+=f[0].length;continue;}
+  rest+=s[i++];}
+ let species=[...new Set(found)];
+ if(species.includes('LaBeH8'))species=species.filter(x=>!/^unknown:BeH8$/.test(x));// 题干里的 BeH₈ 单元属于 LaBeH₈
+ if(species.includes('ICE_5'))species=species.filter(x=>x!=='H2O');// 问冰的结构时，水分子是冰的组成
+ return {rest,terms,species,complex};
 }
 export function tokens(input){let {rest,terms}=lex(input);rest=rest.replace(/大π键|σ键|π键/g,m=>' '+m+' ');const out=[...terms];for(const p of rest.match(/大π键|σ键|π键|[σπ]|[\p{Script=Han}]+|[a-z]+|\d+/gu)||[]){if(/^[\p{Script=Han}]+$/u.test(p)){for(let i=0;i<p.length-1;i++)out.push(p.slice(i,i+2));}else out.push(p.toLowerCase());}return out.filter(t=>!['为什','什么','怎么','么写','几个','是几','多少','如何','怎样','为啥','的是','为是'].includes(t));}
 

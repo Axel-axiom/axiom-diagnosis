@@ -20,3 +20,18 @@ test('回退请求重新计时，过期回执被忽略',async t=>{
  t.mock.timers.tick(12000);assert.equal(store.get().status,'');
  delete globalThis.window;delete globalThis.document;
 });
+test('连续两次打开时，上一次的迟到回执被丢弃',async()=>{
+ const sent=[];const target=new EventTarget();
+ const contentWindow={postMessage:m=>sent.push(m),AXIOM:{catalog:()=>({species:[{id:'NH3',layers:[]},{id:'H2O',layers:[]}],cards:[]})}};
+ globalThis.window=target;globalThis.document={querySelector:()=>({contentWindow})};
+ const {render,store}=await import('../src/axiom-bridge.js?bridge-race');
+ const reply=data=>target.dispatchEvent(Object.assign(new Event('message'),{source:contentWindow,data:{type:'axiom:result',...data}}));
+ render({card:{id:'K1'},axiom:{species:'NH3'},view:{from:'card',axiom:{species:'NH3'}}});
+ render({card:{id:'K2'},axiom:{species:'H2O'},view:{from:'card',axiom:{species:'H2O'}}});
+ reply({ok:true,state:{species:'NH3'}});
+ assert.equal(store.get().status,'正在打开模型…','上一次的回执不算数');
+ reply({ok:true,state:{species:'H2O'}});
+ assert.match(store.get().status,/H2O/);assert.equal(globalThis.window.lastAxiomResult.state.species,'H2O');
+ delete globalThis.window;delete globalThis.document;
+});
+
