@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node server.mjs",
-    "test": "node --test tests/api.test.mjs tests/v11.test.mjs",
+    "test": "node --test tests/api.test.mjs tests/v11.test.mjs tests/bridge.test.mjs",
     "quality": "node tests/quality.mjs",
     "build": "node build.mjs"
   },

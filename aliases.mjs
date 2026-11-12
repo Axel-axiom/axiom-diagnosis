@@ -4,6 +4,11 @@ Object.assign(ALIASES,{"NO3_1m":["硝酸根"],"NO2_1m":["亚硝酸根"],"SO4_2m"
 Object.assign(ALIASES,{"V3Si":[],"LaBeH8":[],"ACID_HCOOH":["甲酸"],"ACID_CH3COOH":["冰醋酸","醋酸","乙酸"],"ACID_C2H5COOH":["丙酸"],"ACID_CH2ClCOOH":["一氯乙酸","氯乙酸"],"ACID_CHCl2COOH":["二氯乙酸"],"ACID_CCl3COOH":["三氯乙酸"],"ACID_CF3COOH":["三氟乙酸"],"ICE_5":["冰"]});
 ALIASES.CaF2.push('萤石');
 const formulas={HCOOH:'ACID_HCOOH',CH3COOH:'ACID_CH3COOH',C2H5COOH:'ACID_C2H5COOH',CH3CH2COOH:'ACID_C2H5COOH',CH2ClCOOH:'ACID_CH2ClCOOH',ClCH2COOH:'ACID_CH2ClCOOH',CHCl2COOH:'ACID_CHCl2COOH',Cl2CHCOOH:'ACID_CHCl2COOH',CCl3COOH:'ACID_CCl3COOH',Cl3CCOOH:'ACID_CCl3COOH',CF3COOH:'ACID_CF3COOH',F3CCOOH:'ACID_CF3COOH'};
+// 酸名后面接着「根、盐、钠、酯、酐」等时说的是羧酸根、盐或酯，不是游离酸：不认作羧酸，按普通文字处理
+// 0.14 新加的名称只用来认物质、打开模型，检索分词仍按原来的方式处理，保证检索结果与加别名前一致
+const NEUTRAL_IDS=new Set(['V3Si','LaBeH8','ACID_HCOOH','ACID_CH3COOH','ACID_C2H5COOH','ACID_CH2ClCOOH','ACID_CHCl2COOH','ACID_CCl3COOH','ACID_CF3COOH','ICE_5']);
+const NEUTRAL=new Set([...Object.entries(ALIASES).filter(([id])=>NEUTRAL_IDS.has(id)).flatMap(([,v])=>v),'萤石','乙酸乙酯','甲酸甲酯','乙酸钠','醋酸钠','冰晶石','冰水','冰糖','冰点','冰箱']);
+const DERIVED=/^(?:根|盐|酐|钠|钾|锂|钙|镁|铵|铜|铁|锌|银|[甲乙丙丁戊己苯]?酯)/;
 const blocked=['水解','水合','水溶液','结晶水','配位水','水化物','氨水','氨基','铵盐','甲苯','苯酚','苯甲酸','聚乙烯','氯甲烷','乙酸乙酯','甲酸甲酯','乙酸钠','醋酸钠','冰晶石','冰水','冰糖','冰点','冰箱'];
 const names=Object.entries(ALIASES).flatMap(([id,names])=>names.map(name=>({name,id}))).concat(blocked.map(name=>({name,id:null}))).sort((a,b)=>b.name.length-a.name.length);
 const canonical=new Map(Object.keys(ALIASES).map(id=>[id,id]));canonical.set('CO3','CO3_2m');canonical.set('NH4','NH4_1p');
@@ -13,12 +18,12 @@ for(const id of Object.keys(ALIASES).filter(id=>/\d/.test(id)&&!id.includes('_')
 canonical.delete('ACID');for(const [f,id] of Object.entries(formulas)){canonical.set(f,id);lower.set(f.toLowerCase(),id);}
 export function lex(input){
  let s=String(input).replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]*[⁺⁻])/g,m=>' '+m).normalize('NFKC').replace(/[−–—]/g,'-').replace(/离域π键|大派键/g,'大π键');
- s=s.replace(/V(?=形)/g,'v');const complex=/[\[\]【】]/.test(s)||/干冰.*CO2|CO2.*干冰|结晶水|配位水|水化物/.test(s);
+ s=s.replace(/V(?=形)/g,'v').replace(/【/g,'[').replace(/】/g,']');const complex=/[\[\]【】]/.test(s)||/干冰.*CO2|CO2.*干冰|结晶水|配位水|水化物/.test(s);
  s=s.replace(/\[[^\]]*\](?:\d*[+-])?/g,' ');
  const found=[],terms=[];let rest='';
- for(let i=0;i<s.length;){const n=names.find(n=>s.startsWith(n.name,i));if(n){if(n.id){found.push(n.id);terms.push(n.id.toLowerCase());if(n.id.startsWith('ACID_'))terms.push('羧酸');}else terms.push('compound:'+n.name);rest+=' ';i+=n.name.length;continue;}
+ for(let i=0;i<s.length;){let n=names.find(n=>s.startsWith(n.name,i));if(n?.id?.startsWith('ACID_')&&DERIVED.test(s.slice(i+n.name.length)))n=null;if(n){if(NEUTRAL.has(n.name)){if(n.id)found.push(n.id);rest+=n.name;i+=n.name.length;continue;}if(n.id){found.push(n.id);terms.push(n.id.toLowerCase());}else terms.push('compound:'+n.name);rest+=' ';i+=n.name.length;continue;}
  const f=s.slice(i).match(/^hcp\b|^nacl\b|^(?:[A-Z][a-z]?\d*)+(?:\s*\d*[+-])?|^[a-z]+\d[a-z\d]*(?:\s*\d*[+-])?|^(?:FCC|BCC|SC)\b/);
- if(f){const charge=f[0].match(/\s+(\d*[+-])$/);if(charge)terms.push('charge:'+charge[1]);const raw=f[0].replace(/\s+\d*[+-]$|[+-]$/,''),id=ions.get(raw+':'+(charge?.[1]||''))||canonical.get(raw)||lower.get(raw);terms.push(id?id.toLowerCase():'formula:'+raw);if(id?.startsWith('ACID_'))terms.push('羧酸');if(id||! /^[A-Z][a-z]?$/.test(raw))found.push(id||'unknown:'+raw);rest+=' ';i+=f[0].length;continue;}
+ if(f){const charge=f[0].match(/\s+(\d*[+-])$/);if(charge)terms.push('charge:'+charge[1]);const raw=f[0].replace(/\s+\d*[+-]$|[+-]$/,''),id=ions.get(raw+':'+(charge?.[1]||''))||canonical.get(raw)||lower.get(raw);terms.push(id&&!NEUTRAL_IDS.has(id)?id.toLowerCase():'formula:'+raw);if(id||! /^[A-Z][a-z]?$/.test(raw))found.push(id||'unknown:'+raw);rest+=' ';i+=f[0].length;continue;}
  rest+=s[i++];}
  return {rest,terms,species:[...new Set(found)],complex};
 }

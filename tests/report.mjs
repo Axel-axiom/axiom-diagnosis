@@ -1,3 +1,5 @@
+// 历史文件：只用于生成 1.1 版（2026-11-04）的交付报告，里面的数量、哈希和结论都是那个版本的，当前版本不要再运行它。
+console.warn('tests/report.mjs 只适用于 1.1 版历史报告，结论不代表当前版本。');
 
 import {readFile,writeFile} from 'node:fs/promises';import {SYSTEM} from '../deepseek.mjs';
 const dir=new URL('../../报告/',import.meta.url);const q=JSON.parse(await readFile(new URL('检索质量.json',dir),'utf8'));const b=JSON.parse(await readFile(new URL('浏览器测试.json',dir),'utf8'));
