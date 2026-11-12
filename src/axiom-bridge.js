@@ -10,6 +10,8 @@ export const store={
 };
 
 const frame=()=>document.querySelector('#axiom');
+// 状态栏显示中文名称（如「氯乙酸（CH₂ClCOOH）」），只打开知识卡片时显示卡片标题
+const nameOf=id=>{try{const c=frame().contentWindow.AXIOM.catalog();return c.species.find(s=>s.id===id)?.label||c.cards.find(x=>x.id===id)?.title||id;}catch{return id;}};
 let current=null,pending=null,timer,fromQuery=false,fallback=false;
 
 export function openModel(){
@@ -54,7 +56,7 @@ window.addEventListener('message',e=>{
   window.actualView=pending;
   store.set({
     viewTrace:'三维：'+(pending?.species||pending?.card||'无')+' · '+(fromQuery?'来自问题':'来自卡片')+(fallback?'（替换失败，已退回）':''),
-    status:e.data.ok?modelStatus(current.view?.query_species,e.data.state?.species||pending?.species||pending?.card,fromQuery):String(e.data.message||e.data.error||'打开失败'),
+    status:!e.data.ok?String(e.data.message||e.data.error||'打开失败'):pending&&!pending.species&&pending.card?'知识卡片：'+nameOf(pending.card):modelStatus(current.view?.query_species,e.data.state?.species||pending?.species||pending?.card,fromQuery,nameOf),
   });
 });
 
