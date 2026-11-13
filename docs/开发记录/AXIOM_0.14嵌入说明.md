@@ -1,6 +1,6 @@
 # 嵌入 AXIOM Lab 0.14.0
 
-public/axiom/AXIOM_Lab.html 由 0.13.3 换成 0.14.0（离线单文件，3586517 字节）。诊断台的检索、提示词、知识库、页面代码都没有改。
+public/axiom/AXIOM_Lab.html 由 0.13.3 换成 0.14.0（离线单文件，3586996 字节）。诊断台的检索、提示词、知识库、页面代码都没有改。
 
 0.14.0 相对 0.13.3：
 - 四个模块排版统一，知识卡片改成独立整页（左侧按章目录，右侧正文）。
@@ -13,4 +13,4 @@ public/axiom/AXIOM_Lab.html 由 0.13.3 换成 0.14.0（离线单文件，3586517
 - 浏览器联动测试（tests/browser.mjs 的同一套断言，在 Chromium 软件渲染下运行）：本地假 DeepSeek 与无 Key 两种模式各 8 个问题、20 个物种、图层过滤、示例模型提示、换一个、回退、仅卡片调用，全部通过。
 - 另测：先打开知识卡片，再问苯的大π键，卡片收起、模型为 C6H6，控制台无报错。
 
-AXIOM_Lab.html SHA-256：73AA954EB8FDC3C01AFA50C98D8C94D81FB32238FB7DB7DF71D0C3E4EF3CED69
+AXIOM_Lab.html SHA-256：84909082D3254F27E659AC6E0EFA7F51CC5E4E45145517A70B47EE99D289C486
