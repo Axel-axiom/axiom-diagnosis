@@ -9,8 +9,8 @@ export const MODULES=[
 ];
 const QUESTIONS=[
  ['为什么 NH₃ 是三角锥形，而 BF₃ 是平面三角形？','NaCl 和 CsCl 为什么是不同的晶体结构？','如何判断分子是否具有极性？'],
- ['水分子为什么是 V 形而不是直线形？','面心立方晶胞里有几个原子？我数了14个。','苯分子的大π键怎么写？'],
- ['CO₂ 有两个双键，中心 C 是不是 4 个价层电子对？','三氟乙酸为什么比乙酸酸性强？','硝酸根为什么是平面三角形？'],
+ ['水分子为什么是V形不是直线形？','面心立方晶胞里有几个原子？我数了14个。','苯分子的大π键怎么写？'],
+ ['CO₂ 有两个双键，中心 C 是不是 4 个价层电子对？','三氟乙酸为什么比乙酸酸性强？','干冰升华时破坏了什么作用？'],
 ];
 export function Mark(){return <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 29 26H3Z" fill="none" stroke="currentColor" strokeWidth="2"/><path d="m9 21 7-12 7 12M12 17h8" fill="none" stroke="currentColor" strokeWidth="1.4"/></svg>;}
 export function Icon({kind}){return <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{kind==='search'?<><circle cx="13" cy="13" r="9"/><path d="m20 20 8 8"/></>:kind==='cube'?<><path d="m16 2 13 7v15l-13 7-13-7V9Z M3 9l13 7 13-7 M16 16v15"/></>:kind==='bot'?<><rect x="5" y="11" width="22" height="17" rx="6"/><path d="M16 11V6 M2 17v5 M30 17v5 M12 23h8"/><circle cx="16" cy="4" r="2"/><circle cx="11" cy="17" r="1"/><circle cx="21" cy="17" r="1"/></>:<><path d="m16 2 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/></>}</svg>;}
