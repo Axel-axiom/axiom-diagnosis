@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ax-launch-art" viewBox="0 0 240 180" aria-hidden="true"><defs>
+<linearGradient id="lgL" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7fe0d0" stop-opacity=".25"/><stop offset="1" stop-color="#2bb3a0" stop-opacity=".75"/></linearGradient>
+<linearGradient id="lgS" x1="0" x2="1"><stop offset="0" stop-color="#ff6b8a"/><stop offset=".25" stop-color="#ffb35c"/><stop offset=".5" stop-color="#f4f16a"/><stop offset=".75" stop-color="#5fe0a0"/><stop offset="1" stop-color="#6f8cff"/></linearGradient></defs>
+<g class="ax-spin"><path d="M100 30h40M106 30v42L72 146a8 8 0 0 0 7 12h82a8 8 0 0 0 7-12l-34-74V30" fill="none" stroke="#cfe3ff" stroke-opacity=".7" stroke-width="3" stroke-linejoin="round"/>
+<path d="M88 118h64l13 28a6 6 0 0 1-5.5 8.5h-79A6 6 0 0 1 75 146Z" fill="url(#lgL)"/>
+<circle cx="108" cy="132" r="4" fill="#d8fff6" opacity=".7"/><circle cx="128" cy="140" r="3" fill="#d8fff6" opacity=".6"/><circle cx="118" cy="104" r="2.5" fill="#d8fff6" opacity=".5"/></g>
+<rect x="30" y="166" width="180" height="5" rx="2.5" fill="url(#lgS)" opacity=".85"/>
+<g fill="#0b0b0f"><rect x="62" y="165" width="2" height="7"/><rect x="104" y="165" width="2" height="7"/><rect x="150" y="165" width="2" height="7"/></g></svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ax-launch-art" viewBox="0 0 240 180" aria-hidden="true"><defs>
+<radialGradient id="lgG" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#c8ffe0"/><stop offset=".5" stop-color="#3ddc84"/><stop offset="1" stop-color="#127a43"/></radialGradient>
+<radialGradient id="lgP" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#ecdfff"/><stop offset=".5" stop-color="#a98bff"/><stop offset="1" stop-color="#4e3a9c"/></radialGradient></defs>
+<g class="ax-spin" stroke="#9cc4ff" stroke-opacity=".55" stroke-width="1.6" fill="none">
+<path d="M70 60 150 40 200 70 120 92Z M70 60V140 M150 40V120 M200 70V150 M120 92V172 M70 140 150 120 200 150 120 172Z"/>
+<path d="M135 66V146 M95 76 175 55 M160 96 95 116" stroke-dasharray="3 5" stroke-opacity=".3"/></g>
+<g class="ax-spin" fill="url(#lgG)"><circle cx="70" cy="60" r="10"/><circle cx="150" cy="40" r="9"/><circle cx="200" cy="70" r="10"/><circle cx="120" cy="92" r="11"/><circle cx="70" cy="140" r="10"/><circle cx="150" cy="120" r="9"/><circle cx="200" cy="150" r="10"/><circle cx="120" cy="172" r="11"/><circle cx="135" cy="106" r="11"/></g>
+<g class="ax-spin" fill="url(#lgP)"><circle cx="110" cy="50" r="8"/><circle cx="175" cy="55" r="8"/><circle cx="95" cy="76" r="9"/><circle cx="160" cy="81" r="9"/><circle cx="70" cy="100" r="8"/><circle cx="200" cy="110" r="8"/><circle cx="120" cy="132" r="9"/><circle cx="95" cy="156" r="8"/><circle cx="160" cy="161" r="8"/></g></svg>

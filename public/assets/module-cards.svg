@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ax-launch-art" viewBox="0 0 240 180" aria-hidden="true"><defs>
+<linearGradient id="lgK" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#3a3f52"/><stop offset="1" stop-color="#1c1f2b"/></linearGradient></defs>
+<g class="ax-spin"><rect x="78" y="30" width="104" height="132" rx="12" fill="#2a2e3d" opacity=".55" transform="rotate(9 130 96)"/>
+<rect x="66" y="28" width="104" height="132" rx="12" fill="#30354a" opacity=".75" transform="rotate(-6 118 94)"/>
+<rect x="68" y="24" width="104" height="136" rx="12" fill="url(#lgK)" stroke="#ffd27a" stroke-opacity=".55" stroke-width="1.6"/>
+<rect x="82" y="40" width="54" height="8" rx="4" fill="#ffd27a" opacity=".85"/>
+<g fill="#c9cfdd" opacity=".55"><rect x="82" y="58" width="76" height="4" rx="2"/><rect x="82" y="68" width="68" height="4" rx="2"/><rect x="82" y="78" width="72" height="4" rx="2"/></g>
+<g stroke="#c9cfdd" stroke-opacity=".4" stroke-width="1.2" fill="none"><rect x="82" y="94" width="76" height="48" rx="4"/><path d="M82 110h76M82 126h76M120 94v48"/></g></g></svg>

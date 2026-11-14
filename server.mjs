@@ -25,7 +25,7 @@ export function createServer(options={}){return http.createServer(async(req,res)
  if(req.method!=='GET')return send(405,{});
  const relative=decodeURIComponent(url.pathname==='/'?'index.html':url.pathname.slice(1)),base=path.join(root,'public'),file=path.resolve(base,relative);
  if(!file.startsWith(base+path.sep))return send(403,{});
- const buffer=await readFile(file);res.writeHead(200,{'Content-Type':({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8'})[path.extname(file)]||'application/octet-stream'});res.end(buffer);
+ const buffer=await readFile(file);res.writeHead(200,{'Content-Type':({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml'})[path.extname(file)]||'application/octet-stream'});res.end(buffer);
  }catch{send(404,{message:'请求失败'});}
  });}
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))createServer().listen(Number(process.env.PORT||8787),'127.0.0.1',()=>console.log('AXIOM 诊断台：http://localhost:'+ (process.env.PORT||8787)));
