@@ -27,6 +27,10 @@ macOS 或 Linux 使用 `export DEEPSEEK_API_KEY=你的密钥`。密钥只放在�
 | `DEEPSEEK_THINKING` | `enabled` | 思考模式，`enabled` 或 `disabled` |
 | `DEEPSEEK_MAX_TOKENS` | `4000` | 输出上限 |
 | `PORT` | `8787` | 服务端口 |
+| `HOST` | `127.0.0.1` | 监听地址。本机使用保持默认；部署到服务器时设为 `0.0.0.0` |
+| `AI_DAILY_LIMIT` | 不限 | 每天最多调用模型的次数，超过后改用知识库检索 |
+| `AI_IP_HOURLY` | 不限 | 每个访问者每小时最多调用模型的次数 |
+| `TRUST_PROXY` | 不启用 | 部署在反向代理后面时设为 `1`，按代理转发的地址区分访问者 |
 
 `.env.example` 只是变量名模板，应用不会自动读取 `.env`。
 
@@ -44,6 +48,12 @@ macOS 或 Linux 使用 `export DEEPSEEK_API_KEY=你的密钥`。密钥只放在�
 | `data/kb.json` | 只读知识库：249 张卡片、241 条错因、748 条问法 |
 | `tests/` | 接口、替换、检索、浏览器联动和真实模型测试 |
 | `docs/开发记录/` | 开发过程中的修订记录，其中的数字和哈希属于当时的版本 |
+
+## 在线演示部署
+
+仓库根目录的 `render.yaml` 可直接在 Render 上部署：登录 Render，选择 New → Blueprint，连接本仓库，在提示时填写 `DEEPSEEK_API_KEY` 即可。密钥只保存在 Render 的环境变量中。
+
+蓝图默认每天最多调用模型 300 次、每个访问者每小时 20 次，超过后自动改用知识库检索，页面会提示原因。免费实例闲置 15 分钟后休眠，再次访问需要等待约一分钟启动。
 
 ## 修改前端
 

@@ -1,0 +1,22 @@
+# Render 部署蓝图（在线演示用）。DeepSeek 密钥在 Render 控制台填写，不写入仓库。
+services:
+  - type: web
+    name: axiom-diagnosis
+    runtime: node
+    plan: free
+    buildCommand: node --version
+    startCommand: node server.mjs
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "1"
+      - key: AI_DAILY_LIMIT
+        value: "300"
+      - key: AI_IP_HOURLY
+        value: "20"
+      - key: DEEPSEEK_API_KEY
+        sync: false

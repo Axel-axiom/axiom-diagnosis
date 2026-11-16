@@ -17,10 +17,21 @@ export async function diagnose(query,options={}){
  const error=matched?kb.errors.find(e=>e.id===ai.error_id)||null:retrieve.localError(query,card);
  const view=makeView(query,card.axiom,card);trace.view={from:view.from,species:view.axiom?.species||''};return {trace,view,mode:matched?'ai':'local',card,error,explanation:matched?ai.explanation:null,alternatives:candidates.filter(x=>x.card.id!==card.id).slice(0,2).map(x=>({id:x.card.id,point:x.card.point})),axiom:card.axiom,message:matched?'':ai?.card_id==='none'?'AI 未找到确切匹配，以下为知识库检索结果':'AI 暂不可用，以下为知识库检索结果'};
 }
-export function createServer(options={}){return http.createServer(async(req,res)=>{
+// Optional limits on real model calls for a public deployment. Unset or 0 means no limit (local use).
+// Over a limit the request still gets a full knowledge-base answer, only without the AI call.
+export function createQuota({daily=Number(process.env.AI_DAILY_LIMIT||0),perIpHour=Number(process.env.AI_IP_HOURLY||0),now=()=>Date.now()}={}){
+ let day='',used=0;const hits=new Map();
+ return {take(ip){const t=now(),d=new Date(t).toISOString().slice(0,10);if(d!==day){day=d;used=0;}
+  if(perIpHour>0){const list=(hits.get(ip)||[]).filter(x=>t-x<3600e3);if(list.length>=perIpHour){hits.set(ip,list);return '你这一小时的 AI 诊断次数已用完，以下为知识库检索结果';}list.push(t);hits.set(ip,list);if(hits.size>5000)for(const [k,v] of hits)if(!v.some(x=>t-x<3600e3))hits.delete(k);}
+  if(daily>0){if(used>=daily)return '在线演示今天的 AI 诊断次数已用完，以下为知识库检索结果';used++;}
+  return '';}};
+}
+export function createServer(options={}){const quota=options.quota||createQuota();return http.createServer(async(req,res)=>{
  const send=(status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(data));};
  try{const url=new URL(req.url,'http://localhost');
- if(req.method==='POST'&&url.pathname==='/api/diagnose'){let body='';for await(const chunk of req){body+=chunk;if(Buffer.byteLength(body)>20000)return send(413,{message:'输入过长'});}let input;try{input=JSON.parse(body);}catch{return send(400,{message:'无效 JSON'});}if(typeof input.query!=='string'||!input.query.trim()||input.query.length>4000)return send(400,{message:'请输入 1–4000 字的问题'});return send(200,await diagnose(input.query,options));}
+ if(req.method==='POST'&&url.pathname==='/api/diagnose'){let body='';for await(const chunk of req){body+=chunk;if(Buffer.byteLength(body)>20000)return send(413,{message:'输入过长'});}let input;try{input=JSON.parse(body);}catch{return send(400,{message:'无效 JSON'});}if(typeof input.query!=='string'||!input.query.trim()||input.query.length>4000)return send(400,{message:'请输入 1–4000 字的问题'});const key=options.key??process.env.DEEPSEEK_API_KEY;const ip=(process.env.TRUST_PROXY==='1'&&String(req.headers['x-forwarded-for']||'').split(',')[0].trim())||req.socket.remoteAddress||'';
+  const limited=key?quota.take(ip):'';if(limited){const r=await diagnose(input.query,{...options,key:''});if(r.mode==='local')r.message=limited;return send(200,r);}
+  return send(200,await diagnose(input.query,options));}
  if(req.method==='GET'&&url.pathname.startsWith('/api/card/')){const card=kb.cards.find(c=>c.id===decodeURIComponent(url.pathname.slice(10)));return card?send(200,{view:makeView(url.searchParams.get('query')||'',card.axiom,card),mode:'local',card,error:null,explanation:null,alternatives:[],axiom:card.axiom,message:'已切换知识卡片'}):send(404,{});}
  if(req.method!=='GET')return send(405,{});
  const relative=decodeURIComponent(url.pathname==='/'?'index.html':url.pathname.slice(1)),base=path.join(root,'public'),file=path.resolve(base,relative);
@@ -28,5 +39,5 @@ export function createServer(options={}){return http.createServer(async(req,res)
  const buffer=await readFile(file);res.writeHead(200,{'Content-Type':({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml'})[path.extname(file)]||'application/octet-stream'});res.end(buffer);
  }catch{send(404,{message:'请求失败'});}
  });}
-if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))createServer().listen(Number(process.env.PORT||8787),'127.0.0.1',()=>console.log('AXIOM 诊断台：http://localhost:'+ (process.env.PORT||8787)));
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))createServer().listen(Number(process.env.PORT||8787),process.env.HOST||'127.0.0.1',()=>console.log('AXIOM 诊断台：http://localhost:'+ (process.env.PORT||8787)));
 
