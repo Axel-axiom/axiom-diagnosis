@@ -4,6 +4,8 @@
 
 知识以知识库为准，AI 只负责在检索候选中选择并写一段讲解。
 
+**在线演示：** <http://47.243.238.47>（无需安装，手机和电脑都能打开）
+
 ## 快速运行（约 5 分钟）
 
 需要 Node.js 22 或更高版本。构建产物已提交，运行不需要 `npm install`。
@@ -51,9 +53,11 @@ macOS 或 Linux 使用 `export DEEPSEEK_API_KEY=你的密钥`。密钥只放在�
 
 ## 在线演示部署
 
-仓库根目录的 `render.yaml` 可直接在 Render 上部署：登录 Render，选择 New → Blueprint，连接本仓库，在提示时填写 `DEEPSEEK_API_KEY` 即可。密钥只保存在 Render 的环境变量中。
+在线演示运行在一台 Ubuntu 22.04 云服务器上（中国香港，2 核 2G），由 systemd 守护进程启动 `node server.mjs`，设置 `HOST=0.0.0.0`、`PORT=80`。密钥写在服务器上只有管理员可读的 `/etc/axiom.env` 中，通过 systemd 的 `EnvironmentFile` 传给程序，不进入代码仓库。
 
-蓝图默认每天最多调用模型 300 次、每个访问者每小时 20 次，超过后自动改用知识库检索，页面会提示原因。免费实例闲置 15 分钟后休眠，再次访问需要等待约一分钟启动。
+在线演示限制每天最多调用模型 300 次、每个访问者每小时 20 次（`AI_DAILY_LIMIT`、`AI_IP_HOURLY`），超过后自动改用知识库检索，页面会提示原因。更新代码时在服务器上运行 `git -C /opt/axiom pull && systemctl restart axiom`。
+
+仓库根目录的 `render.yaml` 也可用于在 Render 上部署（New → Blueprint，在提示时填写 `DEEPSEEK_API_KEY`）。
 
 ## 修改前端
 
@@ -97,6 +101,8 @@ node tests/eval-ai.mjs
 - 58 张知识卡片没有三维调用（多为晶体缺陷、陌生配合物反应等没有对应模型的进阶内容）。
 - 没有学生试用数据，不能评价学习效果。
 
-## AI 工具使用
+## AI 的使用
 
-开发中使用了 ChatGPT／Codex 和 Claude 辅助编写代码、整理资料和复核。当前 Git 提交由 Codex 和 Claude 完成。
+**作品中的 AI：** 诊断台运行时调用国产大模型 DeepSeek（`deepseek-flash`），在检索给出的候选中选择知识卡片和错因，并写一段讲解。知识内容以知识库为准，AI 的输出经过程序校验后才显示。
+
+**开发过程中的辅助工具：** 编写代码、整理资料和复核时使用了 ChatGPT／Codex 和 Claude，当前 Git 提交由这两个工具完成。知识口径、错因审定、功能设计与取舍、测试验收由团队完成。
